@@ -1,0 +1,121 @@
+{
+  "header": {
+    "browseJobs": "Browse Jobs",
+    "companies": "Companies",
+    "pricing": "Pricing",
+    "login": "Login"
+  },
+  "footer": {
+    "title": "Jobify",
+    "tagline": "Find your next opportunity.",
+    "links": "Links",
+    "jobs": "Browse Jobs",
+    "companies": "Companies",
+    "pricing": "Pricing",
+    "auth": "Authentication",
+    "login": "Login",
+    "signup": "Sign Up",
+    "newsletter": "Stay updated",
+    "newsletterPlaceholder": "Enter your email",
+    "subscribe": "Subscribe",
+    "allRights": "All Rights Reserved"
+  },
+  "homePage": {
+    "hero": {
+      "title": "Find Your Dream Job or Candidate",
+      "description": "Jobify helps employers and candidates connect quickly and efficiently.",
+      "getStarted": "Get Started",
+      "browseJobs": "Browse Jobs"
+    },
+    "features": {
+      "feature1": {
+        "title": "Easy Job Search",
+        "desc": "Find your next opportunity with powerful filters and smart recommendations."
+      },
+      "feature2": {
+        "title": "Verified Companies",
+        "desc": "Browse trusted companies with complete profiles and transparent reviews."
+      },
+      "feature3": {
+        "title": "Quick Applications",
+        "desc": "Apply to jobs in just a few clicks with streamlined application tools."
+      }
+    },
+    "howItWorks": {
+      "title": "How It Works",
+      "step1": {
+        "title": "Search for Jobs",
+        "description": "Browse thousands of job listings with advanced filters and personalized recommendations."
+      },
+      "step2": {
+        "title": "Apply Easily",
+        "description": "Submit your application in seconds with our one-click apply system and track your progress."
+      },
+      "step3": {
+        "title": "Get Hired",
+        "description": "Connect directly with employers and land your dream job faster than ever before."
+      }
+    },
+    "testimonials": {
+      "title": "What Our Users Say",
+      "t1": {
+        "quote": "Jobify helped me find my dream job in just two weeks. The application process was incredibly smooth!",
+        "name": "Sarah Chen",
+        "role": "Senior Product Designer at TechCorp"
+      },
+      "t2": {
+        "quote": "As a recruiter, I've hired 5 amazing candidates through Jobify this year. Best platform we've used!",
+        "name": "Michael Rodriguez",
+        "role": "Head of Talent Acquisition at StartupHub"
+      },
+      "t3": {
+        "quote": "Finally a job board that actually understands what developers are looking for. Highly recommended.",
+        "name": "Aisha Patel",
+        "role": "Full-Stack Engineer at InnovateCo"
+      }
+    },
+    "pricing": {
+      "title": "Simple, Transparent Pricing",
+      "button": "Get Started",
+      "basic": {
+        "title": "Basic",
+        "price": "Free",
+        "features": [
+          "Post job listings",
+          "Search candidate database",
+          "Basic applicant tracking",
+          "Email support"
+        ]
+      },
+      "pro": {
+        "title": "Pro",
+        "price": "$99/month",
+        "features": [
+          "Everything in Basic",
+          "Unlimited job postings",
+          "Featured company profile",
+          "Advanced analytics & reports",
+          "Priority applicant visibility",
+          "Dedicated account manager"
+        ]
+      },
+      "enterprise": {
+        "title": "Enterprise",
+        "price": "Custom",
+        "features": [
+          "Everything in Pro",
+          "Custom integrations & API access",
+          "White-label branding options",
+          "Advanced security & compliance",
+          "SLA & 24/7 phone support",
+          "Dedicated success team"
+        ]
+      }
+    },
+    "cta": {
+      "title": "Ready to Find Your Next Great Hire or Job?",
+      "subtitle": "Join thousands of companies and candidates already using Jobify.",
+      "button": "Get Started Now"
+    }
+  }
+}

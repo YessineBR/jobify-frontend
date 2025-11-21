@@ -1,0 +1,121 @@
+{
+  "header": {
+    "browseJobs": "Stellen durchsuchen",
+    "companies": "Unternehmen",
+    "pricing": "Preise",
+    "login": "Anmelden"
+  },
+  "footer": {
+    "title": "Jobify",
+    "tagline": "Finde deine nächste Chance.",
+    "links": "Links",
+    "jobs": "Stellen durchsuchen",
+    "companies": "Unternehmen",
+    "pricing": "Preise",
+    "auth": "Authentifizierung",
+    "login": "Anmelden",
+    "signup": "Registrieren",
+    "newsletter": "Bleib auf dem Laufenden",
+    "newsletterPlaceholder": "Deine E-Mail-Adresse",
+    "subscribe": "Abonnieren",
+    "allRights": "Alle Rechte vorbehalten"
+  },
+  "homePage": {
+    "hero": {
+      "title": "Finde deinen Traumjob oder deinen perfekten Kandidaten",
+      "description": "Jobify verbindet Arbeitgeber und Bewerber schnell und effizient.",
+      "getStarted": "Loslegen",
+      "browseJobs": "Stellen durchsuchen"
+    },
+    "features": {
+      "feature1": {
+        "title": "Einfache Jobsuche",
+        "desc": "Finde deine nächste Stelle mit leistungsstarken Filtern und intelligenten Empfehlungen."
+      },
+      "feature2": {
+        "title": "Verifizierte Unternehmen",
+        "desc": "Durchsuche vertrauenswürdige Unternehmen mit vollständigen Profilen und transparenten Bewertungen."
+      },
+      "feature3": {
+        "title": "Schnelle Bewerbungen",
+        "desc": "Bewirb dich mit nur wenigen Klicks dank optimierter Bewerbungstools."
+      }
+    },
+    "howItWorks": {
+      "title": "So funktioniert’s",
+      "step1": {
+        "title": "Stellen suchen",
+        "description": "Durchstöbere Tausende von Stellenanzeigen mit erweiterten Filtern und personalisierten Empfehlungen."
+      },
+      "step2": {
+        "title": "Einfach bewerben",
+        "description": "Reiche deine Bewerbung in Sekunden ein – mit unserem One-Click-System und verfolge den Status."
+      },
+      "step3": {
+        "title": "Eingestellt werden",
+        "description": "Verbinde dich direkt mit Arbeitgebern und lande schneller deinen Traumjob."
+      }
+    },
+    "testimonials": {
+      "title": "Das sagen unsere Nutzer",
+      "t1": {
+        "quote": "Dank Jobify habe ich innerhalb von nur zwei Wochen meinen Traumjob gefunden. Der Bewerbungsprozess war unglaublich einfach!",
+        "name": "Sarah Chen",
+        "role": "Senior Product Designer bei TechCorp"
+      },
+      "t2": {
+        "quote": "Als Recruiter habe ich dieses Jahr fünf großartige Talente über Jobify eingestellt. Die beste Plattform, die wir je genutzt haben!",
+        "name": "Michael Rodriguez",
+        "role": "Head of Talent Acquisition bei StartupHub"
+      },
+      "t3": {
+        "quote": "Endlich ein Jobportal, das wirklich versteht, wonach Entwickler suchen. Sehr zu empfehlen!",
+        "name": "Aisha Patel",
+        "role": "Full-Stack Engineer bei InnovateCo"
+      }
+    },
+    "pricing": {
+      "title": "Einfache, transparente Preise",
+      "button": "Jetzt starten",
+      "basic": {
+        "title": "Basic",
+        "price": "Kostenlos",
+        "features": [
+          "Stellenanzeigen schalten",
+          "Kandidatendatenbank durchsuchen",
+          "Einfaches Bewerber-Tracking",
+          "E-Mail-Support"
+        ]
+      },
+      "pro": {
+        "title": "Pro",
+        "price": "99 €/Monat",
+        "features": [
+          "Alles aus Basic",
+          "Unbegrenzte Stellenanzeigen",
+          "Hervorgehobenes Unternehmensprofil",
+          "Erweiterte Analysen & Berichte",
+          "Bevorzugte Sichtbarkeit von Bewerbern",
+          "Persönlicher Account-Manager"
+        ]
+      },
+      "enterprise": {
+        "title": "Enterprise",
+        "price": "Individuell",
+        "features": [
+          "Alles aus Pro",
+          "Individuelle Integrationen & API-Zugang",
+          "White-Label-Branding",
+          "Erweiterte Sicherheit & Compliance",
+          "SLA & 24/7-Telefon-Support",
+          "Dediziertes Success-Team"
+        ]
+      }
+    },
+    "cta": {
+      "title": "Bereit für deinen nächsten Top-Mitarbeiter oder Traumjob?",
+      "subtitle": "Schließe dich Tausenden von Unternehmen und Bewerbern an, die bereits Jobify nutzen.",
+      "button": "Jetzt starten"
+    }
+  }
+}
