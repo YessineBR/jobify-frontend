@@ -3,9 +3,7 @@
 import Link from "next/link"
 import { useRouter, usePathname } from "next/navigation"
 import { useTranslations } from "next-intl"
-import { useEffect, useState } from "react"
-
-// shadcn components
+import { useState } from "react"
 import { Button } from "@/components/ui/button"
 import {
     NavigationMenu,
@@ -22,27 +20,21 @@ import {
     DropdownMenuSeparator,
 } from "@/components/ui/dropdown-menu"
 import { Sheet, SheetTrigger, SheetContent } from "@/components/ui/sheet"
-
-// Lucide icons
 import { Menu, ChevronDown, Moon, Sun, Monitor } from "lucide-react"
 import { VisuallyHidden } from "@radix-ui/react-visually-hidden"
 import { DialogTitle } from "@/components/ui/dialog"
 
-// Theme hook (you probably already have this — if not, see note below)
 import { useTheme } from "next-themes"
 
 export default function Header() {
     const t = useTranslations("header")
     const router = useRouter()
     const pathname = usePathname() || "/en"
-    const { theme, setTheme, systemTheme } = useTheme()
+    const { theme, setTheme } = useTheme()
     const [mounted, setMounted] = useState(false)
 
     const segments = pathname.split("/")
     const currentLocale = segments[1] || "en"
-
-    // Prevent hydration mismatch
-    useEffect(() => setMounted(true), [])
 
     const switchLocale = (locale: string) => {
         const updated = [...segments]
@@ -50,13 +42,7 @@ export default function Header() {
         router.push(updated.join("/") || `/${locale}`)
     }
 
-    // Icon + label based on current theme
     const ThemeIcon = theme === "dark" ? Moon : theme === "light" ? Sun : Monitor
-    const themeLabel =
-        theme === "dark" ? "Dark" :
-            theme === "light" ? "Light" :
-                "System"
-
     return (
         <header className="border-b sticky top-0 bg-background z-50">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
