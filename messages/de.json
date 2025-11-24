@@ -16,6 +16,29 @@
       "or": "Oder weiter mit",
       "noAccount": "Noch kein Konto?",
       "signup": "Jetzt kostenlos registrieren"
+    },
+    "signup": {
+      "title": "Erstelle dein Konto",
+      "subtitle": "Werde Mitglied als Jobsuchender oder Arbeitgeber",
+      "userType": {
+        "label": "Ich bin",
+        "applicant": "Jobsuchender",
+        "company": "Arbeitgeber"
+      },
+      "fullName": "Vollständiger Name",
+      "email": "E-Mail",
+      "password": "Passwort",
+      "confirmPassword": "Passwort bestätigen",
+      "terms": {
+        "prefix": "Ich akzeptiere die",
+        "terms": "Nutzungsbedingungen",
+        "and": "und",
+        "privacy": "Datenschutzerklärung"
+      },
+      "submit": "Konto erstellen",
+      "or": "Oder registriere dich mit",
+      "haveAccount": "Hast du bereits ein Konto?",
+      "signin": "Anmelden"
     }
   },
   "header": {

@@ -17,8 +17,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-    title: "JOBIFY - Exceptional Talent Without The Hassle",
-    description: "JOBIFY - Exceptional Talent Without The Hassle",
+    title: "Rcrut.me - Exceptional Talent Without The Hassle",
+    description: "Rcrut.me - Exceptional Talent Without The Hassle",
 };
 
 export default function RootLayout({

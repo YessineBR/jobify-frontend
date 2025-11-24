@@ -16,6 +16,29 @@
       "or": "Or continue with",
       "noAccount": "Don't have an account?",
       "signup": "Sign up for free"
+    },
+    "signup": {
+      "title": "Create your account",
+      "subtitle": "Join as a job seeker or employer",
+      "userType": {
+        "label": "I am a",
+        "applicant": "Job Seeker",
+        "company": "Employer"
+      },
+      "fullName": "Full Name",
+      "email": "Email",
+      "password": "Password",
+      "confirmPassword": "Confirm Password",
+      "terms": {
+        "prefix": "I agree to the",
+        "terms": "Terms of Service",
+        "and": "and",
+        "privacy": "Privacy Policy"
+      },
+      "submit": "Create Account",
+      "or": "Or sign up with",
+      "haveAccount": "Already have an account?",
+      "signin": "Sign in"
     }
   },
   "header": {
@@ -355,19 +378,51 @@
     },
     "stats": {
       "items": [
-        { "value": 8500, "suffix": "+", "label": "Successful Relocations" },
-        { "value": 99, "suffix": "%", "label": "Visa Approval Rate" },
-        { "value": 47, "suffix": "", "label": "Countries Represented" },
-        { "value": 21, "suffix": " days", "label": "Average Visa Processing" }
+        {
+          "value": 8500,
+          "suffix": "+",
+          "label": "Successful Relocations"
+        },
+        {
+          "value": 99,
+          "suffix": "%",
+          "label": "Visa Approval Rate"
+        },
+        {
+          "value": 47,
+          "suffix": "",
+          "label": "Countries Represented"
+        },
+        {
+          "value": 21,
+          "suffix": " days",
+          "label": "Average Visa Processing"
+        }
       ]
     },
     "team": {
       "title": "Meet the Humans Behind Rcrut.me",
       "members": [
-        { "name": "Anna Müller", "role": "CEO & Co-Founder", "image": "/team/anna.jpg" },
-        { "name": "Raj Patel", "role": "CTO & Co-Founder", "image": "/team/raj.jpg" },
-        { "name": "Lena Weber", "role": "Head of Visa Operations", "image": "/team/lena.jpg" },
-        { "name": "Maximilian Koch", "role": "Head of Talent", "image": "/team/max.jpg" }
+        {
+          "name": "Anna Müller",
+          "role": "CEO & Co-Founder",
+          "image": "/team/anna.jpg"
+        },
+        {
+          "name": "Raj Patel",
+          "role": "CTO & Co-Founder",
+          "image": "/team/raj.jpg"
+        },
+        {
+          "name": "Lena Weber",
+          "role": "Head of Visa Operations",
+          "image": "/team/lena.jpg"
+        },
+        {
+          "name": "Maximilian Koch",
+          "role": "Head of Talent",
+          "image": "/team/max.jpg"
+        }
       ]
     },
     "cta": {
