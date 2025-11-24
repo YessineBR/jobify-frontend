@@ -1,121 +1,298 @@
 {
   "header": {
-    "browseJobs": "Browse Jobs",
-    "companies": "Companies",
+    "features": "Features",
+    "testimonials": "Testimonials",
     "pricing": "Pricing",
-    "login": "Login"
+    "signIn": "Sign In",
+    "getStarted": "Get Started"
   },
   "footer": {
-    "title": "Jobify",
-    "tagline": "Find your next opportunity.",
-    "links": "Links",
-    "jobs": "Browse Jobs",
-    "companies": "Companies",
-    "pricing": "Pricing",
-    "auth": "Authentication",
-    "login": "Login",
-    "signup": "Sign Up",
-    "newsletter": "Stay updated",
-    "newsletterPlaceholder": "Enter your email",
-    "subscribe": "Subscribe",
-    "allRights": "All Rights Reserved"
+    "description": "AI-powered recruiting platform connecting talent with opportunities.",
+    "product": {
+      "title": "Product",
+      "features": "Features",
+      "pricing": "Pricing",
+      "testimonials": "Testimonials"
+    },
+    "company": {
+      "title": "Company",
+      "about": "About",
+      "careers": "Careers",
+      "contact": "Contact"
+    },
+    "legal": {
+      "title": "Legal",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service",
+      "cookies": "Cookie Policy"
+    },
+    "rights": "All rights reserved."
   },
   "homePage": {
     "hero": {
-      "title": "Find Your Dream Job or Candidate",
-      "description": "Jobify helps employers and candidates connect quickly and efficiently.",
-      "getStarted": "Get Started",
-      "browseJobs": "Browse Jobs"
+      "badge": "AI-Powered Recruiting",
+      "title": "Find Your Perfect Match with AI-Driven Recruiting",
+      "subtitle": "Transform your hiring process with intelligent candidate matching. Our AI analyzes thousands of profiles in seconds to find the perfect fit for your team.",
+      "jobPlaceholder": "Describe your dream job... e.g., Senior React developer",
+      "locationPlaceholder": "City or Remote",
+      "search": "Search Jobs",
+      "searching": "Searching...",
+      "startHiring": "Start Hiring",
+      "browseJobs": "Browse All Jobs",
+      "examples": [
+        "Senior React Developer",
+        "Marketing Manager with AI/ML",
+        "Full-stack Engineer (Web3)"
+      ],
+      "stats": [
+        {
+          "value": "50k+",
+          "label": "Active Jobs"
+        },
+        {
+          "value": "100k+",
+          "label": "Candidates"
+        },
+        {
+          "value": "95%",
+          "label": "Match Rate"
+        }
+      ]
     },
     "features": {
-      "feature1": {
-        "title": "Easy Job Search",
-        "desc": "Find your next opportunity with powerful filters and smart recommendations."
-      },
-      "feature2": {
-        "title": "Verified Companies",
-        "desc": "Browse trusted companies with complete profiles and transparent reviews."
-      },
-      "feature3": {
-        "title": "Quick Applications",
-        "desc": "Apply to jobs in just a few clicks with streamlined application tools."
-      }
-    },
-    "howItWorks": {
-      "title": "How It Works",
-      "step1": {
-        "title": "Search for Jobs",
-        "description": "Browse thousands of job listings with advanced filters and personalized recommendations."
-      },
-      "step2": {
-        "title": "Apply Easily",
-        "description": "Submit your application in seconds with our one-click apply system and track your progress."
-      },
-      "step3": {
-        "title": "Get Hired",
-        "description": "Connect directly with employers and land your dream job faster than ever before."
-      }
+      "badge": "Features",
+      "title": "Recruiting Powered by Artificial Intelligence",
+      "subtitle": "Experience the future of recruiting with our cutting-edge AI technology that revolutionizes how you find and hire talent.",
+      "items": [
+        {
+          "icon": "Brain",
+          "title": "AI-Powered Matching",
+          "description": "Our advanced AI analyzes resumes, skills, and job requirements to find the perfect match every time."
+        },
+        {
+          "icon": "Target",
+          "title": "Precision Targeting",
+          "description": "Reach the right candidates with intelligent targeting based on skills, experience, and career goals."
+        },
+        {
+          "icon": "Zap",
+          "title": "Instant Results",
+          "description": "Get matched candidates in seconds, not weeks. Our AI works 24/7 to find your next hire."
+        },
+        {
+          "icon": "Shield",
+          "title": "Verified Profiles",
+          "description": "All candidate profiles are verified and validated to ensure quality and authenticity."
+        },
+        {
+          "icon": "BarChart",
+          "title": "Analytics Dashboard",
+          "description": "Track your hiring performance with detailed analytics and insights powered by AI."
+        },
+        {
+          "icon": "Users",
+          "title": "Team Collaboration",
+          "description": "Collaborate seamlessly with your hiring team and make data-driven decisions together."
+        }
+      ]
     },
     "testimonials": {
-      "title": "What Our Users Say",
-      "t1": {
-        "quote": "Jobify helped me find my dream job in just two weeks. The application process was incredibly smooth!",
-        "name": "Sarah Chen",
-        "role": "Senior Product Designer at TechCorp"
-      },
-      "t2": {
-        "quote": "As a recruiter, I've hired 5 amazing candidates through Jobify this year. Best platform we've used!",
-        "name": "Michael Rodriguez",
-        "role": "Head of Talent Acquisition at StartupHub"
-      },
-      "t3": {
-        "quote": "Finally a job board that actually understands what developers are looking for. Highly recommended.",
-        "name": "Aisha Patel",
-        "role": "Full-Stack Engineer at InnovateCo"
-      }
+      "badge": "Testimonials",
+      "title": "Loved by Companies and Candidates",
+      "subtitle": "Join thousands of satisfied users who have transformed their recruiting experience with Rcrut.me.",
+      "items": [
+        {
+          "name": "Sarah Miller",
+          "role": "HR Director at TechCorp",
+          "image": "https://images.unsplash.com/photo-1758518731468-98e90ffd7430?w=400&h=400&fit=crop",
+          "content": "Rcrut.me revolutionized our hiring process. We filled 20 positions in half the time it used to take. The AI matching is incredibly accurate.",
+          "rating": 5
+        },
+        {
+          "name": "Michael Chen",
+          "role": "Founder at StartupXYZ",
+          "image": "https://images.unsplash.com/photo-1521791136064-7986c2920216?w=400&h=400&fit=crop",
+          "content": "As a startup, we needed to move fast. Rcrut.me's AI-powered search helped us find perfect candidates who aligned with our culture and vision.",
+          "rating": 5
+        },
+        {
+          "name": "Emma Johnson",
+          "role": "Senior Software Engineer",
+          "image": "https://images.unsplash.com/photo-1675557570482-df9926f61d86?w=400&h=400&fit=crop",
+          "content": "I found my dream job in just 3 days using Rcrut.me. The AI understood exactly what I was looking for and matched me with amazing opportunities.",
+          "rating": 5
+        }
+      ]
     },
     "pricing": {
-      "title": "Simple, Transparent Pricing",
-      "button": "Get Started",
-      "basic": {
-        "title": "Basic",
-        "price": "Free",
-        "features": [
-          "Post job listings",
-          "Search candidate database",
-          "Basic applicant tracking",
-          "Email support"
-        ]
-      },
-      "pro": {
-        "title": "Pro",
-        "price": "$99/month",
-        "features": [
-          "Everything in Basic",
-          "Unlimited job postings",
-          "Featured company profile",
-          "Advanced analytics & reports",
-          "Priority applicant visibility",
-          "Dedicated account manager"
-        ]
-      },
+      "badge": "Pricing Plans",
+      "title": "Choose Your Perfect Plan",
+      "subtitle": "Whether you're an individual job seeker or a company hiring talent, we have the right plan for you.",
+      "popularBadge": "Most Popular",
+      "trialInfo": "All plans include a 14-day free trial. No credit card required.",
+      "guarantees": [
+        "Cancel anytime",
+        "Secure payments",
+        "24/7 support"
+      ],
       "enterprise": {
-        "title": "Enterprise",
-        "price": "Custom",
-        "features": [
-          "Everything in Pro",
-          "Custom integrations & API access",
-          "White-label branding options",
-          "Advanced security & compliance",
-          "SLA & 24/7 phone support",
-          "Dedicated success team"
-        ]
-      }
+        "title": "Need a Custom Solution?",
+        "subtitle": "For companies hiring multiple positions or requiring custom features, we offer tailored enterprise solutions.",
+        "cta": "Contact Sales"
+      },
+      "plans": [
+        {
+          "name": "Basic",
+          "price": "49",
+          "period": "month",
+          "description": "Perfect for individuals starting their job search",
+          "features": [
+            "Access to job search with AI matching",
+            "Up to 10 job applications per month",
+            "Basic profile creation",
+            "Email support",
+            "Job alerts",
+            "Resume builder"
+          ],
+          "notIncluded": [
+            "Express visa application",
+            "Priority support",
+            "Advanced analytics",
+            "Dedicated account manager"
+          ],
+          "buttonText": "Get Started",
+          "popular": false
+        },
+        {
+          "name": "Gold",
+          "price": "99",
+          "period": "month",
+          "description": "Best for professionals seeking premium opportunities",
+          "features": [
+            "Everything in Basic",
+            "Unlimited job applications",
+            "Advanced AI matching algorithm",
+            "Priority job listings",
+            "Express visa consultation (1 session)",
+            "Priority email & chat support",
+            "Profile optimization tips",
+            "Interview preparation resources",
+            "Salary negotiation guides"
+          ],
+          "notIncluded": [
+            "Full express visa application service",
+            "Dedicated account manager"
+          ],
+          "buttonText": "Get Gold",
+          "popular": true
+        },
+        {
+          "name": "Platinum",
+          "price": "199",
+          "period": "month",
+          "description": "Complete solution for companies and serious professionals",
+          "features": [
+            "Everything in Gold",
+            "Full express visa application service",
+            "Unlimited visa consultations",
+            "Dedicated account manager",
+            "Company job posting (unlimited)",
+            "Advanced analytics dashboard",
+            "White-glove onboarding support",
+            "Custom AI matching parameters",
+            "Direct employer connections",
+            "Relocation assistance",
+            "Legal document review",
+            "24/7 priority support"
+          ],
+          "notIncluded": [],
+          "buttonText": "Get Platinum",
+          "popular": false
+        }
+      ]
     },
     "cta": {
-      "title": "Ready to Find Your Next Great Hire or Job?",
-      "subtitle": "Join thousands of companies and candidates already using Jobify.",
-      "button": "Get Started Now"
+      "badge": "Start Your Journey Today",
+      "title": "Ready to Transform Your Recruiting?",
+      "subtitle": "Join thousands of companies and candidates using AI to find their perfect match. Get started in minutes, no credit card required.",
+      "primaryCta": "Get Started Free",
+      "secondaryCta": "Schedule a Demo",
+      "trust": "Free 14-day trial • No credit card required • Cancel anytime"
+    },
+    "expressVisa": {
+      "badge": "Express Visa Service",
+      "title": "Your Fast Track to Germany",
+      "subtitle": "Get your German work visa with just a few clicks. We support both companies and individuals through the entire visa process.",
+      "priceIncludes": "total (includes €411 visa fees)",
+      "sectionTitle": "Simplified German Work Visa Process",
+      "sectionDesc": "Whether you're a company looking to hire international talent or an individual seeking opportunities in Germany, our express visa service streamlines the entire process.",
+      "forWho": [
+        {
+          "title": "For Companies",
+          "desc": "Hire top international talent without visa hassles. We handle all paperwork and coordination with authorities."
+        },
+        {
+          "title": "For Individuals",
+          "desc": "Start your career in Germany with confidence. Our AI matches you with jobs and handles your visa application."
+        },
+        {
+          "title": "Expert Support",
+          "desc": "Dedicated visa specialists guide you through every step with personalized support."
+        }
+      ],
+      "startApplication": "Start Your Visa Application",
+      "benefitsTitle": "Why Choose Our Express Visa Service?",
+      "benefits": [
+        {
+          "icon": "Clock",
+          "title": "Fast Processing",
+          "description": "Get your German visa approved in as little as 2-3 weeks with our express service."
+        },
+        {
+          "icon": "FileText",
+          "title": "Simplified Paperwork",
+          "description": "We handle all documentation and ensure everything is correctly prepared and submitted."
+        },
+        {
+          "icon": "Shield",
+          "title": "High Success Rate",
+          "description": "99% approval rate with our expert guidance and thorough preparation process."
+        },
+        {
+          "icon": "Zap",
+          "title": "All-in-One Platform",
+          "description": "From job matching to visa approval - everything in one seamless platform."
+        }
+      ],
+      "howItWorks": "How It Works - Just 4 Simple Steps",
+      "steps": [
+        {
+          "step": "1",
+          "title": "Find Your Job",
+          "description": "Get matched with a German employer through our AI-powered platform."
+        },
+        {
+          "step": "2",
+          "title": "Submit Documents",
+          "description": "Upload your documents through our secure portal. We'll review everything."
+        },
+        {
+          "step": "3",
+          "title": "We Handle Everything",
+          "description": "Our experts prepare and submit your visa application to German authorities."
+        },
+        {
+          "step": "4",
+          "title": "Get Your Visa",
+          "description": "Receive your approved visa and start your journey to Germany."
+        }
+      ],
+      "finalCta": {
+        "title": "Ready to Start Your German Journey?",
+        "subtitle": "Join thousands of professionals who have successfully relocated to Germany with our express visa service.",
+        "primary": "Book a Free Consultation",
+        "secondary": "Learn More"
+      }
     }
   }
 }

@@ -1,11 +1,12 @@
 import Footer from "@/components/layout/Footer"
 import Header from "@/components/layout/Header";
+import React from "react";
 
 export default function MarketingLayout({ children }: { children: React.ReactNode }) {
     return (
         <>
             <Header />
-            <main className="pt-20">
+            <main>
                 {children}
             </main>
             <Footer />

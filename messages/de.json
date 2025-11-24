@@ -1,121 +1,298 @@
 {
   "header": {
-    "browseJobs": "Stellen durchsuchen",
-    "companies": "Unternehmen",
-    "pricing": "Preise",
-    "login": "Anmelden"
+    "features": "Features",
+    "testimonials": "Testimonials",
+    "pricing": "Pricing",
+    "signIn": "Sign In",
+    "getStarted": "Get Started"
   },
   "footer": {
-    "title": "Jobify",
-    "tagline": "Finde deine nächste Chance.",
-    "links": "Links",
-    "jobs": "Stellen durchsuchen",
-    "companies": "Unternehmen",
-    "pricing": "Preise",
-    "auth": "Authentifizierung",
-    "login": "Anmelden",
-    "signup": "Registrieren",
-    "newsletter": "Bleib auf dem Laufenden",
-    "newsletterPlaceholder": "Deine E-Mail-Adresse",
-    "subscribe": "Abonnieren",
-    "allRights": "Alle Rechte vorbehalten"
+    "description": "AI-powered recruiting platform connecting talent with opportunities.",
+    "product": {
+      "title": "Product",
+      "features": "Features",
+      "pricing": "Pricing",
+      "testimonials": "Testimonials"
+    },
+    "company": {
+      "title": "Company",
+      "about": "About",
+      "careers": "Careers",
+      "contact": "Contact"
+    },
+    "legal": {
+      "title": "Legal",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service",
+      "cookies": "Cookie Policy"
+    },
+    "rights": "All rights reserved."
   },
   "homePage": {
     "hero": {
-      "title": "Finde deinen Traumjob oder deinen perfekten Kandidaten",
-      "description": "Jobify verbindet Arbeitgeber und Bewerber schnell und effizient.",
-      "getStarted": "Loslegen",
-      "browseJobs": "Stellen durchsuchen"
+      "badge": "KI-gestütztes Recruiting",
+      "title": "Finde deinen Perfect Match mit KI-gestütztem Recruiting",
+      "subtitle": "Revolutioniere deinen Einstellungsprozess mit intelligentem Kandidaten-Matching. Unsere KI analysiert in Sekunden Tausende Profile und findet den perfekten Fit für dein Team.",
+      "jobPlaceholder": "Beschreibe deinen Traumjob… z. B. Senior React Entwickler",
+      "locationPlaceholder": "Stadt oder Remote",
+      "search": "Jobs suchen",
+      "searching": "Suche läuft…",
+      "startHiring": "Jetzt einstellen",
+      "browseJobs": "Alle Stellen ansehen",
+      "examples": [
+        "Senior React Entwickler",
+        "Marketing Manager mit AI/ML-Hintergrund",
+        "Full-Stack Engineer (Web3)"
+      ],
+      "stats": [
+        {
+          "value": "50.000+",
+          "label": "Aktive Stellen"
+        },
+        {
+          "value": "100.000+",
+          "label": "Kandidaten"
+        },
+        {
+          "value": "95%",
+          "label": "Trefferquote"
+        }
+      ]
     },
     "features": {
-      "feature1": {
-        "title": "Einfache Jobsuche",
-        "desc": "Finde deine nächste Stelle mit leistungsstarken Filtern und intelligenten Empfehlungen."
-      },
-      "feature2": {
-        "title": "Verifizierte Unternehmen",
-        "desc": "Durchsuche vertrauenswürdige Unternehmen mit vollständigen Profilen und transparenten Bewertungen."
-      },
-      "feature3": {
-        "title": "Schnelle Bewerbungen",
-        "desc": "Bewirb dich mit nur wenigen Klicks dank optimierter Bewerbungstools."
-      }
-    },
-    "howItWorks": {
-      "title": "So funktioniert’s",
-      "step1": {
-        "title": "Stellen suchen",
-        "description": "Durchstöbere Tausende von Stellenanzeigen mit erweiterten Filtern und personalisierten Empfehlungen."
-      },
-      "step2": {
-        "title": "Einfach bewerben",
-        "description": "Reiche deine Bewerbung in Sekunden ein – mit unserem One-Click-System und verfolge den Status."
-      },
-      "step3": {
-        "title": "Eingestellt werden",
-        "description": "Verbinde dich direkt mit Arbeitgebern und lande schneller deinen Traumjob."
-      }
+      "badge": "Funktionen",
+      "title": "Recruiting mit Künstlicher Intelligenz",
+      "subtitle": "Erlebe die Zukunft des Recruitings mit unserer modernsten KI-Technologie, die revolutioniert, wie du Talente findest und einstellst.",
+      "items": [
+        {
+          "icon": "Brain",
+          "title": "KI-basiertes Matching",
+          "description": "Unsere fortschrittliche KI analysiert Lebensläufe, Fähigkeiten und Stellenanforderungen – für perfekte Matches."
+        },
+        {
+          "icon": "Target",
+          "title": "Präzises Targeting",
+          "description": "Erreiche genau die richtigen Kandidaten – basierend auf Skills, Erfahrung und Karrierezielen."
+        },
+        {
+          "icon": "Zap",
+          "title": "Sofortige Ergebnisse",
+          "description": "Erhalte passende Kandidaten in Sekunden statt Wochen. Unsere KI arbeitet rund um die Uhr."
+        },
+        {
+          "icon": "Shield",
+          "title": "Verifizierte Profile",
+          "description": "Alle Kandidatenprofile werden geprüft und validiert – für maximale Qualität und Authentizität."
+        },
+        {
+          "icon": "BarChart",
+          "title": "Analytics Dashboard",
+          "description": "Behalte deine Recruiting-Performance im Blick mit detaillierten KI-gestützten Analysen."
+        },
+        {
+          "icon": "Users",
+          "title": "Team-Zusammenarbeit",
+          "description": "Arbeite nahtlos mit deinem Team zusammen und treffe datenbasierte Entscheidungen."
+        }
+      ]
     },
     "testimonials": {
-      "title": "Das sagen unsere Nutzer",
-      "t1": {
-        "quote": "Dank Jobify habe ich innerhalb von nur zwei Wochen meinen Traumjob gefunden. Der Bewerbungsprozess war unglaublich einfach!",
-        "name": "Sarah Chen",
-        "role": "Senior Product Designer bei TechCorp"
-      },
-      "t2": {
-        "quote": "Als Recruiter habe ich dieses Jahr fünf großartige Talente über Jobify eingestellt. Die beste Plattform, die wir je genutzt haben!",
-        "name": "Michael Rodriguez",
-        "role": "Head of Talent Acquisition bei StartupHub"
-      },
-      "t3": {
-        "quote": "Endlich ein Jobportal, das wirklich versteht, wonach Entwickler suchen. Sehr zu empfehlen!",
-        "name": "Aisha Patel",
-        "role": "Full-Stack Engineer bei InnovateCo"
-      }
+      "badge": "Kundenstimmen",
+      "title": "Geliebt von Unternehmen und Kandidaten",
+      "subtitle": "Schließe dich tausenden zufriedenen Nutzern an, die ihr Recruiting mit Rcrut.me revolutioniert haben.",
+      "items": [
+        {
+          "name": "Sarah Miller",
+          "role": "HR-Direktorin bei TechCorp",
+          "image": "https://images.unsplash.com/photo-1758518731468-98e90ffd7430?w=400&h=400&fit=crop",
+          "content": "Rcrut.me hat unseren Einstellungsprozess revolutioniert. Wir haben 20 Stellen in der Hälfte der bisherigen Zeit besetzt. Das KI-Matching ist unglaublich präzise.",
+          "rating": 5
+        },
+        {
+          "name": "Michael Chen",
+          "role": "Gründer von StartupXYZ",
+          "image": "https://images.unsplash.com/photo-1521791136064-7986c2920216?w=400&h=400&fit=crop",
+          "content": "Als Startup mussten wir schnell handeln. Die KI-Suche von Rcrut.me hat uns geholfen, Kandidaten zu finden, die perfekt zu unserer Kultur und Vision passen.",
+          "rating": 5
+        },
+        {
+          "name": "Emma Johnson",
+          "role": "Senior Software Engineer",
+          "image": "https://images.unsplash.com/photo-1675557570482-df9926f61d86?w=400&h=400&fit=crop",
+          "content": "Ich habe meinen Traumjob in nur 3 Tagen über Rcrut.me gefunden. Die KI hat genau verstanden, was ich suche – und mich mit großartigen Stellen verbunden.",
+          "rating": 5
+        }
+      ]
     },
     "pricing": {
-      "title": "Einfache, transparente Preise",
-      "button": "Jetzt starten",
-      "basic": {
-        "title": "Basic",
-        "price": "Kostenlos",
-        "features": [
-          "Stellenanzeigen schalten",
-          "Kandidatendatenbank durchsuchen",
-          "Einfaches Bewerber-Tracking",
-          "E-Mail-Support"
-        ]
-      },
-      "pro": {
-        "title": "Pro",
-        "price": "99 €/Monat",
-        "features": [
-          "Alles aus Basic",
-          "Unbegrenzte Stellenanzeigen",
-          "Hervorgehobenes Unternehmensprofil",
-          "Erweiterte Analysen & Berichte",
-          "Bevorzugte Sichtbarkeit von Bewerbern",
-          "Persönlicher Account-Manager"
-        ]
-      },
+      "badge": "Preispläne",
+      "title": "Wähle deinen perfekten Plan",
+      "subtitle": "Egal ob du als Jobsuchender oder als Unternehmen einstellst – wir haben den richtigen Plan für dich.",
+      "popularBadge": "Beliebtestes",
+      "trialInfo": "Alle Pläne beinhalten eine 14-tägige kostenlose Testphase. Keine Kreditkarte erforderlich.",
+      "guarantees": [
+        "Jederzeit kündbar",
+        "Sichere Zahlung",
+        "24/7 Support"
+      ],
       "enterprise": {
-        "title": "Enterprise",
-        "price": "Individuell",
-        "features": [
-          "Alles aus Pro",
-          "Individuelle Integrationen & API-Zugang",
-          "White-Label-Branding",
-          "Erweiterte Sicherheit & Compliance",
-          "SLA & 24/7-Telefon-Support",
-          "Dediziertes Success-Team"
-        ]
-      }
+        "title": "Brauchst du eine individuelle Lösung?",
+        "subtitle": "Für Unternehmen mit mehreren offenen Stellen oder speziellen Anforderungen bieten wir maßgeschneiderte Enterprise-Lösungen.",
+        "cta": "Sales kontaktieren"
+      },
+      "plans": [
+        {
+          "name": "Basic",
+          "price": "49",
+          "period": "Monat",
+          "description": "Perfekt für Jobsuchende, die starten",
+          "features": [
+            "Zugriff auf KI-gestützte Jobsuche",
+            "Bis zu 10 Bewerbungen pro Monat",
+            "Einfaches Profil",
+            "E-Mail-Support",
+            "Job-Benachrichtigungen",
+            "Lebenslauf-Builder"
+          ],
+          "notIncluded": [
+            "Express-Visumantrag",
+            "Prioritätssupport",
+            "Erweiterte Analysen",
+            "Persönlicher Ansprechpartner"
+          ],
+          "buttonText": "Loslegen",
+          "popular": false
+        },
+        {
+          "name": "Gold",
+          "price": "99",
+          "period": "Monat",
+          "description": "Ideal für Professionals mit hohen Ansprüchen",
+          "features": [
+            "Alles aus Basic",
+            "Unbegrenzte Bewerbungen",
+            "Erweiterter KI-Matching-Algorithmus",
+            "Priorisierte Jobanzeigen",
+            "Express-Visa-Beratung (1 Termin)",
+            "Priorisierter Support per E-Mail & Chat",
+            "Profil-Optimierungstipps",
+            "Vorbereitung auf Vorstellungsgespräche",
+            "Gehaltsverhandlungs-Guide"
+          ],
+          "notIncluded": [
+            "Kompletter Express-Visaservice",
+            "Persönlicher Ansprechpartner"
+          ],
+          "buttonText": "Gold wählen",
+          "popular": true
+        },
+        {
+          "name": "Platinum",
+          "price": "199",
+          "period": "Monat",
+          "description": "Komplettlösung für Unternehmen & Top-Professionals",
+          "features": [
+            "Alles aus Gold",
+            "Kompletter Express-Visaservice",
+            "Unbegrenzte Visa-Beratungen",
+            "Persönlicher Ansprechpartner",
+            "Unbegrenzte Stellenanzeigen",
+            "Erweitertes Analytics-Dashboard",
+            "White-Glove Onboarding",
+            "Individuelle KI-Matching-Parameter",
+            "Direkte Arbeitgeber-Kontakte",
+            "Umzugshilfe",
+            "Rechtsdokumentenprüfung",
+            "24/7 VIP-Support"
+          ],
+          "notIncluded": [],
+          "buttonText": "Platinum wählen",
+          "popular": false
+        }
+      ]
     },
     "cta": {
-      "title": "Bereit für deinen nächsten Top-Mitarbeiter oder Traumjob?",
-      "subtitle": "Schließe dich Tausenden von Unternehmen und Bewerbern an, die bereits Jobify nutzen.",
-      "button": "Jetzt starten"
+      "badge": "Starte noch heute",
+      "title": "Bereit, dein Recruiting zu revolutionieren?",
+      "subtitle": "Schließe dich tausenden Unternehmen und Kandidaten an, die KI nutzen, um ihren Perfect Match zu finden. Starte in Minuten – ohne Kreditkarte.",
+      "primaryCta": "Kostenlos starten",
+      "secondaryCta": "Demo vereinbaren",
+      "trust": "14 Tage kostenlos testen • Keine Kreditkarte nötig • Jederzeit kündbar"
+    },
+    "expressVisa": {
+      "badge": "Express-Visaservice",
+      "title": "Dein schneller Weg nach Deutschland",
+      "subtitle": "Erhalte dein deutsches Arbeitsvisum mit nur wenigen Klicks. Wir unterstützen sowohl Unternehmen als auch Privatpersonen während des gesamten Visumprozesses.",
+      "priceIncludes": "gesamt (inkl. €411 Visumgebühren)",
+      "sectionTitle": "Vereinfachter deutscher Arbeitsvisum-Prozess",
+      "sectionDesc": "Egal ob du als Unternehmen internationale Talente einstellen möchtest oder als Einzelperson Chancen in Deutschland suchst – unser Express-Visaservice macht alles einfacher.",
+      "forWho": [
+        {
+          "title": "Für Unternehmen",
+          "desc": "Stelle Top-Talente aus dem Ausland ein – ohne Visa-Stress. Wir übernehmen Papierkram und Behördenkontakt."
+        },
+        {
+          "title": "Für Privatpersonen",
+          "desc": "Starte deine Karriere in Deutschland mit Sicherheit. Unsere KI findet deinen Job und wir kümmern uns um dein Visum."
+        },
+        {
+          "title": "Experten-Support",
+          "desc": "Persönliche Visa-Spezialisten begleiten dich in jedem Schritt mit individueller Betreuung."
+        }
+      ],
+      "startApplication": "Visumantrag starten",
+      "benefitsTitle": "Warum unser Express-Visaservice?",
+      "benefits": [
+        {
+          "icon": "Clock",
+          "title": "Schnelle Bearbeitung",
+          "description": "Dein Visum in nur 2–3 Wochen – dank unserem Express-Service."
+        },
+        {
+          "icon": "FileText",
+          "title": "Weniger Papierkram",
+          "description": "Wir kümmern uns um alle Dokumente – korrekt vorbereitet und eingereicht."
+        },
+        {
+          "icon": "Shield",
+          "title": "99% Erfolgsquote",
+          "description": "Höchste Genehmigungsrate durch Experten-Begleitung und perfekte Vorbereitung."
+        },
+        {
+          "icon": "Zap",
+          "title": "Alles aus einer Hand",
+          "description": "Von der Jobvermittlung bis zur Visagenehmigung – alles auf einer Plattform."
+        }
+      ],
+      "howItWorks": "So funktioniert’s – nur 4 einfache Schritte",
+      "steps": [
+        {
+          "step": "1",
+          "title": "Job finden",
+          "description": "Lass dich von unserer KI mit einem deutschen Arbeitgeber matchen."
+        },
+        {
+          "step": "2",
+          "title": "Dokumente hochladen",
+          "description": "Lade deine Unterlagen sicher hoch – wir prüfen alles."
+        },
+        {
+          "step": "3",
+          "title": "Wir erledigen den Rest",
+          "description": "Unsere Experten bereiten deinen Antrag vor und reichen ihn bei den Behörden ein."
+        },
+        {
+          "step": "4",
+          "title": "Visum erhalten",
+          "description": "Erhalte dein genehmigtes Visum und starte deine Reise nach Deutschland."
+        }
+      ],
+      "finalCta": {
+        "title": "Bereit für dein Deutschland-Abenteuer?",
+        "subtitle": "Schließe dich tausenden Fachkräften an, die mit unserem Express-Visaservice erfolgreich nach Deutschland umgezogen sind.",
+        "primary": "Kostenlose Beratung buchen",
+        "secondary": "Mehr erfahren"
+      }
     }
   }
 }
