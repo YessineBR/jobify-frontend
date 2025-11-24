@@ -128,4 +128,15 @@
     body {
         @apply bg-background text-foreground font-sans;
     }
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+    /* Optional: Force smooth scroll even when user prefers reduced motion */
+    @media (prefers-reduced-motion: no-preference) {
+        html {
+            scroll-behavior: smooth;
+        }
+    }
 }

@@ -157,8 +157,8 @@ export default function ExpressVisa() {
                                 className="bg-white text-primary hover:bg-white/90 shadow-xl text-lg px-10">
                             {t("finalCta.primary")}
                         </Button>
-                        <Button size="lg" variant="outline"
-                                className="border-white/50 text-white hover:bg-white/10 backdrop-blur text-lg px-10">
+                        <Button size="lg" variant="secondary"
+                                className="border-white/50 hover:bg-white/10 backdrop-blur text-lg px-10">
                             {t("finalCta.secondary")}
                         </Button>
                     </div>

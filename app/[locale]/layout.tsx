@@ -4,6 +4,7 @@ import "./globals.css";
 import {NextIntlClientProvider} from "next-intl";
 import {ThemeProvider} from "next-themes";
 import React from "react";
+import {SmoothScroll} from "@/components/SmoothScroll";
 
 const geistSans = Geist({
     variable: "--font-geist-sans",
@@ -37,6 +38,7 @@ export default function RootLayout({
         >
             <NextIntlClientProvider>
                 {children}
+                <SmoothScroll />
             </NextIntlClientProvider>
         </ThemeProvider>
         </body>

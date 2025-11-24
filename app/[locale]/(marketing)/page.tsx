@@ -14,9 +14,8 @@ export default function HomePage() {
             <Features/>
             <ExpressVisa/>
             <Pricing/>
-            <CTA/>
             <Testimonials/>
-
+            <CTA/>
         </>
     )
 }

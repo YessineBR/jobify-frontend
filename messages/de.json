@@ -1,10 +1,30 @@
 {
+  "auth": {
+    "signin": {
+      "title": "Willkommen!",
+      "subtitle": "Melden Sie sich an, um fortzufahren",
+      "email": "E-Mail-Adresse",
+      "password": "Passwort",
+      "userType": {
+        "label": "Ich bin",
+        "applicant": "Bewerber",
+        "company": "Unternehmen"
+      },
+      "remember": "Angemeldet bleiben",
+      "forgot": "Passwort vergessen?",
+      "submit": "Anmelden",
+      "or": "Oder weiter mit",
+      "noAccount": "Noch kein Konto?",
+      "signup": "Jetzt kostenlos registrieren"
+    }
+  },
   "header": {
     "features": "Features",
     "testimonials": "Testimonials",
     "pricing": "Pricing",
     "signIn": "Sign In",
-    "getStarted": "Get Started"
+    "getStarted": "Get Started",
+    "about": "Über uns"
   },
   "footer": {
     "description": "AI-powered recruiting platform connecting talent with opportunities.",
@@ -293,6 +313,100 @@
         "primary": "Kostenlose Beratung buchen",
         "secondary": "Mehr erfahren"
       }
+    }
+  },
+  "about": {
+    "hero": {
+      "title": "Wir machen Deutschland zu deinem neuen Zuhause",
+      "subtitle": "Rcrut.me verbindet KI-gestütztes Job-Matching mit Express-Visaservice – damit Fachkräfte schnell, legal und stressfrei nach Deutschland kommen.",
+      "cta": "Jetzt starten"
+    },
+    "mission": {
+      "title": "Unsere Mission",
+      "description": "Wir glauben: Talent kennt keine Grenzen. Jede qualifizierte Fachkraft verdient die Chance, dort zu leben und zu arbeiten, wo sie ihr Potenzial voll entfalten kann – und Deutschland ist einer der besten Orte dafür.",
+      "quote": "Deutschland für die besten Talente der Welt zugänglich machen – ein erfolgreiches Visum nach dem anderen."
+    },
+    "story": {
+      "title": "Von einer einfachen Idee zu tausenden Neuanfängen",
+      "p1": "Rcrut.me entstand 2023, als unsere Gründer – eine deutsche Personalexpertin und ein indischer Softwareingenieur – selbst die schmerzhafte Bürokratie bei der Fachkräfteeinwanderung erlebten.",
+      "p2": "Sie stellten eine einfache Frage: Warum muss das so kompliziert sein? Monatelanger Papierkram und Unsicherheit sollten nicht zwischen großartigen Menschen und großartigen Chancen stehen.",
+      "p3": "Also haben wir Rcrut.me gebaut: Eine All-in-One-Plattform, die mit KI Kandidaten mit deutschen Arbeitgebern matched und den gesamten Visumprozess in Wochen statt Monaten erledigt – mit 99 % Erfolgsquote."
+    },
+    "values": {
+      "title": "Unsere Werte",
+      "items": [
+        {
+          "title": "Geschwindigkeit",
+          "description": "Wir handeln schnell, damit du schon bald und nicht erst nächstes Jahr anfangen kannst."
+        },
+        {
+          "title": "Vertrauen",
+          "description": "Transparenz, Ehrlichkeit und klare Kommunikation – in allem, was wir tun."
+        },
+        {
+          "title": "Fürsorge",
+          "description": "Du bist kein Aktenzeichen. Du bist ein Mensch mit Träumen – und wir behandeln dich wie Familie."
+        },
+        {
+          "title": "Exzellenz",
+          "description": "Wir sind besessen von Details, damit du es nicht sein musst. Nur höchste Standards – immer."
+        }
+      ]
+    },
+    "stats": {
+      "items": [
+        {
+          "value": 8500,
+          "suffix": "+",
+          "label": "Erfolgreiche Umzüge"
+        },
+        {
+          "value": 99,
+          "suffix": "%",
+          "label": "Visum-Erfolgsquote"
+        },
+        {
+          "value": 47,
+          "suffix": "",
+          "label": "Länder vertreten"
+        },
+        {
+          "value": 21,
+          "suffix": " Tage",
+          "label": "Durchschnittliche Bearbeitung"
+        }
+      ]
+    },
+    "team": {
+      "title": "Die Menschen hinter Rcrut.me",
+      "members": [
+        {
+          "name": "Anna Müller",
+          "role": "CEO & Mitgründerin",
+          "image": "/team/anna.jpg"
+        },
+        {
+          "name": "Raj Patel",
+          "role": "CTO & Mitgründer",
+          "image": "/team/raj.jpg"
+        },
+        {
+          "name": "Lena Weber",
+          "role": "Leitung Visabearbeitung",
+          "image": "/team/lena.jpg"
+        },
+        {
+          "name": "Maximilian Koch",
+          "role": "Leitung Talent Acquisition",
+          "image": "/team/max.jpg"
+        }
+      ]
+    },
+    "cta": {
+      "title": "Bereit für dein neues Kapitel in Deutschland?",
+      "subtitle": "Schließe dich den über 8.500 Fachkräften an, die bereits mit Rcrut.me durchgestartet sind.",
+      "signup": "Kostenloses Konto erstellen",
+      "visa": "Express-Visum entdecken"
     }
   }
 }

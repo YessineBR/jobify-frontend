@@ -1,10 +1,30 @@
 {
+  "auth": {
+    "signin": {
+      "title": "Welcome!",
+      "subtitle": "Sign in to your account to continue",
+      "email": "Email Address",
+      "password": "Password",
+      "userType": {
+        "label": "I am",
+        "applicant": "Applicant",
+        "company": "Company"
+      },
+      "remember": "Remember me",
+      "forgot": "Forgot password?",
+      "submit": "Sign In",
+      "or": "Or continue with",
+      "noAccount": "Don't have an account?",
+      "signup": "Sign up for free"
+    }
+  },
   "header": {
     "features": "Features",
     "testimonials": "Testimonials",
     "pricing": "Pricing",
     "signIn": "Sign In",
-    "getStarted": "Get Started"
+    "getStarted": "Get Started",
+    "about": "About Us"
   },
   "footer": {
     "description": "AI-powered recruiting platform connecting talent with opportunities.",
@@ -293,6 +313,68 @@
         "primary": "Book a Free Consultation",
         "secondary": "Learn More"
       }
+    }
+  },
+  "about": {
+    "hero": {
+      "title": "We Make Germany Your Next Home",
+      "subtitle": "Rcrut.me combines AI-powered job matching with express visa processing to help skilled professionals relocate to Germany — fast, legally, and stress-free.",
+      "cta": "Start Your Journey"
+    },
+    "mission": {
+      "title": "Our Mission",
+      "description": "We believe talent should never be limited by borders. Every skilled professional deserves the opportunity to live and work where they can thrive — and Germany is one of the best places on Earth to do exactly that.",
+      "quote": "Making Germany accessible to the world’s best talent — one successful visa at a time."
+    },
+    "story": {
+      "title": "From a Simple Idea to Thousands of New Beginnings",
+      "p1": "Rcrut.me was born in 2023 when our founders — a German HR expert and an Indian software engineer — both experienced the painful bureaucracy of relocating talent to Germany.",
+      "p2": "They asked a simple question: Why does it have to be so complicated? Months of paperwork, endless emails, and uncertainty shouldn’t stand between great people and great opportunities.",
+      "p3": "So we built Rcrut.me: an all-in-one platform that uses AI to match candidates with German employers and handles the entire visa process in weeks instead of months — with a 99% success rate."
+    },
+    "values": {
+      "title": "Our Values",
+      "items": [
+        {
+          "title": "Speed",
+          "description": "We move fast so you can start your new life sooner — not next year, but next month."
+        },
+        {
+          "title": "Trust",
+          "description": "Transparency, honesty, and clear communication in everything we do."
+        },
+        {
+          "title": "Care",
+          "description": "You’re not a case number. You’re a person with dreams — and we treat you like family."
+        },
+        {
+          "title": "Excellence",
+          "description": "We obsess over details so you don’t have to. Only the highest standards — always."
+        }
+      ]
+    },
+    "stats": {
+      "items": [
+        { "value": 8500, "suffix": "+", "label": "Successful Relocations" },
+        { "value": 99, "suffix": "%", "label": "Visa Approval Rate" },
+        { "value": 47, "suffix": "", "label": "Countries Represented" },
+        { "value": 21, "suffix": " days", "label": "Average Visa Processing" }
+      ]
+    },
+    "team": {
+      "title": "Meet the Humans Behind Rcrut.me",
+      "members": [
+        { "name": "Anna Müller", "role": "CEO & Co-Founder", "image": "/team/anna.jpg" },
+        { "name": "Raj Patel", "role": "CTO & Co-Founder", "image": "/team/raj.jpg" },
+        { "name": "Lena Weber", "role": "Head of Visa Operations", "image": "/team/lena.jpg" },
+        { "name": "Maximilian Koch", "role": "Head of Talent", "image": "/team/max.jpg" }
+      ]
+    },
+    "cta": {
+      "title": "Ready to Make Germany Your Home?",
+      "subtitle": "Join over 8,500 professionals who have already started their new chapter with Rcrut.me.",
+      "signup": "Create Free Account",
+      "visa": "Explore Express Visa"
     }
   }
 }

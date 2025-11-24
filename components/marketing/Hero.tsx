@@ -114,18 +114,18 @@ export default function Hero() {
                         </div>
                     </Card>
 
-                    {/* CTA Buttons */}
-                    <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
-                        <Button size="lg" asChild className="px-8">
-                            <a href="/post-job">
-                                {t("startHiring")}
-                                <ArrowRight className="ml-2 h-5 w-5"/>
-                            </a>
-                        </Button>
-                        <Button size="lg" variant="outline" asChild>
-                            <a href="/jobs">{t("browseJobs")}</a>
-                        </Button>
-                    </div>
+                    {/*/!* CTA Buttons *!/*/}
+                    {/*<div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center">*/}
+                    {/*    <Button size="lg" asChild className="px-8">*/}
+                    {/*        <a href="/post-job">*/}
+                    {/*            {t("startHiring")}*/}
+                    {/*            <ArrowRight className="ml-2 h-5 w-5"/>*/}
+                    {/*        </a>*/}
+                    {/*    </Button>*/}
+                    {/*    <Button size="lg" variant="outline" asChild>*/}
+                    {/*        <a href="/jobs">{t("browseJobs")}</a>*/}
+                    {/*    </Button>*/}
+                    {/*</div>*/}
 
                     {/* Stats */}
                     <div className="mt-16 grid grid-cols-3 gap-8 max-w-2xl mx-auto">
