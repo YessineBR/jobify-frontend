@@ -57,7 +57,7 @@ export default function CTA() {
                             size="lg"
                             variant="outline"
                             asChild
-                            className="px-10 h-14 text-lg font-medium border-2 border-white text-white hover:bg-white/15 transition-colors"
+                            className="px-10 h-14 text-lg font-medium border-2 border-white hover:bg-white/15 transition-colors"
                         >
                             <Link href="/demo">{t("secondaryCta")}</Link>
                         </Button>

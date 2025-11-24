@@ -431,5 +431,124 @@
       "signup": "Create Free Account",
       "visa": "Explore Express Visa"
     }
+  },
+  "legal": {
+    "privacy": {
+      "badge": "Privacy Policy",
+      "title": "Privacy Policy",
+      "description": "How we collect, use, and protect your personal data",
+      "lastUpdated": "Last updated: April 15, 2025",
+      "sections": {
+        "introduction": {
+          "title": "1. Introduction",
+          "content": "Rcrut.me ('we', 'our', or 'us') is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our platform and services. By using Rcrut.me, you agree to the practices described in this policy."
+        },
+        "dataCollection": {
+          "title": "2. Information We Collect",
+          "content": "We collect the following types of information:",
+          "list": [
+            "Personal details: name, email address, phone number, and profile photo",
+            "Professional information: CV, work experience, education, skills, and salary expectations",
+            "Account data: login credentials and preferences",
+            "Usage data: IP address, browser type, pages visited, and interaction patterns",
+            "Communication data: emails, support messages, and feedback"
+          ]
+        },
+        "dataUsage": {
+          "title": "3. How We Use Your Information",
+          "content": "We use your information to provide and improve our services, including matching candidates with employers, sending job alerts, verifying identities, preventing fraud, and complying with legal obligations."
+        },
+        "sharing": {
+          "title": "4. Information Sharing",
+          "content": "We only share your data with your explicit consent (e.g., when applying to a job), with trusted service providers under strict confidentiality, or when required by law. We never sell your personal data."
+        },
+        "cookies": {
+          "title": "5. Cookies & Tracking Technologies",
+          "content": "We use cookies and similar technologies to improve user experience, analyze usage, and deliver personalized content. See our Cookie Policy for details."
+        },
+        "rights": {
+          "title": "6. Your Rights",
+          "content": "You have the right to access, correct, delete, or restrict processing of your personal data. You may also withdraw consent or request data portability. Contact us at privacy@Rcrut.me.jobs to exercise these rights."
+        },
+        "contact": {
+          "title": "7. Contact Us",
+          "content": "For any privacy-related questions, please reach out to our Data Protection Officer at"
+        }
+      }
+    },
+    "terms": {
+      "badge": "Terms of Service",
+      "title": "Terms of Service",
+      "description": "Legal agreement between you and Rcrut.me",
+      "lastUpdated": "Last updated: April 15, 2025",
+      "sections": {
+        "acceptance": {
+          "title": "1. Acceptance of Terms",
+          "content": "By creating an account or using Rcrut.me, you agree to be bound by these Terms of Service and our Privacy Policy. If you do not agree, you may not use our platform."
+        },
+        "eligibility": {
+          "title": "2. Eligibility",
+          "content": "You must be at least 18 years old and legally capable of entering into contracts to use Rcrut.me. Companies must be legally registered entities."
+        },
+        "accounts": {
+          "title": "3. Account Responsibilities",
+          "content": "You are responsible for maintaining the confidentiality of your account and for all activities under it. You agree to provide accurate and complete information and to update it promptly."
+        },
+        "conduct": {
+          "title": "4. Prohibited Conduct",
+          "content": "You may not use Rcrut.me to post false information, harass others, infringe intellectual property, or engage in any illegal activity. We reserve the right to suspend or terminate accounts that violate these rules."
+        },
+        "payments": {
+          "title": "5. Payments & Refunds",
+          "content": "All fees are non-refundable except as explicitly stated. Prices may change with 30 days notice. We use Stripe for secure payment processing."
+        },
+        "termination": {
+          "title": "6. Termination",
+          "content": "We may suspend or terminate your access at any time for violation of these terms. Upon termination, your right to use the service ceases immediately."
+        },
+        "liability": {
+          "title": "7. Limitation of Liability",
+          "content": "Rcrut.me is provided 'as is'. We are not responsible for hiring decisions or outcomes. To the fullest extent permitted by law, our liability is limited to the amount you paid us in the past 12 months."
+        }
+      }
+    },
+    "cookies": {
+      "badge": "Cookie Policy",
+      "title": "Cookie Policy",
+      "description": "How we use cookies and similar technologies",
+      "lastUpdated": "Last updated: April 15, 2025",
+      "sections": {
+        "whatAreCookies": {
+          "title": "1. What Are Cookies?",
+          "content": "Cookies are small text files stored on your device that help websites remember your preferences and improve functionality."
+        },
+        "types": {
+          "title": "2. Types of Cookies We Use",
+          "content": "We use the following categories of cookies:",
+          "list": [
+            {
+              "name": "Essential Cookies",
+              "description": "Required for core functionality like login, security, and form submissions. Cannot be disabled."
+            },
+            {
+              "name": "Analytics Cookies",
+              "description": "Help us understand how visitors use our site (via Plausible Analytics – privacy-friendly, no personal data collected)."
+            },
+            {
+              "name": "Preference Cookies",
+              "description": "Remember your language, theme, and notification settings."
+            },
+            {
+              "name": "Marketing Cookies",
+              "description": "Currently not used. We do not run third-party advertising or tracking."
+            }
+          ]
+        },
+        "management": {
+          "title": "3. Managing Cookies",
+          "content": "You can control cookies through your browser settings. Most browsers allow you to block or delete cookies. Note that disabling essential cookies may affect site functionality."
+        }
+      }
+    }
   }
 }

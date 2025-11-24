@@ -431,5 +431,124 @@
       "signup": "Kostenloses Konto erstellen",
       "visa": "Express-Visum entdecken"
     }
+  },
+  "legal": {
+    "privacy": {
+      "badge": "Datenschutzerklärung",
+      "title": "Datenschutzerklärung",
+      "description": "Wie wir Ihre personenbezogenen Daten erfassen, nutzen und schützen",
+      "lastUpdated": "Zuletzt aktualisiert: 15. April 2025",
+      "sections": {
+        "introduction": {
+          "title": "1. Einleitung",
+          "content": "Rcrut.me ('wir', 'uns') verpflichtet sich, Ihre Privatsphäre zu schützen. Diese Datenschutzerklärung erklärt, wie wir Ihre Daten bei Nutzung unserer Plattform erfassen, verwenden und sichern. Mit der Nutzung von Rcrut.me stimmen Sie den hier beschriebenen Praktiken zu."
+        },
+        "dataCollection": {
+          "title": "2. Welche Daten wir erheben",
+          "content": "Wir erheben folgende Datenarten:",
+          "list": [
+            "Persönliche Angaben: Name, E-Mail-Adresse, Telefonnummer und Profilfoto",
+            "Berufliche Informationen: Lebenslauf, Berufserfahrung, Ausbildung, Fähigkeiten und Gehaltsvorstellungen",
+            "Konto-Daten: Zugangsdaten und Einstellungen",
+            "Nutzungsdaten: IP-Adresse, Browsertyp, besuchte Seiten und Interaktionen",
+            "Kommunikationsdaten: E-Mails, Support-Nachrichten und Feedback"
+          ]
+        },
+        "dataUsage": {
+          "title": "3. Wie wir Ihre Daten verwenden",
+          "content": "Wir nutzen Ihre Daten zur Bereitstellung und Verbesserung unserer Dienste – z. B. Bewerber mit Arbeitgebern zusammenbringen, Job-Benachrichtigungen versenden, Identitäten prüfen, Betrug verhindern und gesetzliche Pflichten erfüllen."
+        },
+        "sharing": {
+          "title": "4. Weitergabe von Daten",
+          "content": "Wir geben Ihre Daten nur mit Ihrer ausdrücklichen Zustimmung weiter (z. B. bei Bewerbungen), an vertrauenswürdige Dienstleister unter strenger Vertraulichkeit oder wenn gesetzlich vorgeschrieben. Wir verkaufen Ihre Daten niemals."
+        },
+        "cookies": {
+          "title": "5. Cookies & Tracking-Technologien",
+          "content": "Wir verwenden Cookies und ähnliche Technologien, um die Nutzererfahrung zu verbessern, die Nutzung zu analysieren und personalisierte Inhalte bereitzustellen. Details siehe unsere Cookie-Richtlinie."
+        },
+        "rights": {
+          "title": "6. Ihre Rechte",
+          "content": "Sie haben das Recht auf Auskunft, Berichtigung, Löschung oder Einschränkung der Verarbeitung Ihrer Daten. Sie können Ihre Einwilligung widerrufen oder Datenübertragbarkeit verlangen. Kontaktieren Sie uns unter privacy@Rcrut.me.jobs."
+        },
+        "contact": {
+          "title": "7. Kontakt",
+          "content": "Bei Fragen zum Datenschutz wenden Sie sich bitte an unseren Datenschutzbeauftragten unter"
+        }
+      }
+    },
+    "terms": {
+      "badge": "Nutzungsbedingungen",
+      "title": "Nutzungsbedingungen",
+      "description": "Rechtliche Vereinbarung zwischen Ihnen und Rcrut.me",
+      "lastUpdated": "Zuletzt aktualisiert: 15. April 2025",
+      "sections": {
+        "acceptance": {
+          "title": "1. Zustimmung zu den Bedingungen",
+          "content": "Durch die Erstellung eines Kontos oder Nutzung von Rcrut.me erklären Sie sich mit diesen Nutzungsbedingungen und unserer Datenschutzerklärung einverstanden. Bei Nichtzustimmung dürfen Sie die Plattform nicht nutzen."
+        },
+        "eligibility": {
+          "title": "2. Berechtigung",
+          "content": "Sie müssen mindestens 18 Jahre alt sein und rechtsfähig sein, um Rcrut.me zu nutzen. Unternehmen müssen rechtlich eingetragene Einheiten sein."
+        },
+        "accounts": {
+          "title": "3. Kontoverantwortung",
+          "content": "Sie sind für die Geheimhaltung Ihres Kontos und alle Aktivitäten darunter verantwortlich. Sie verpflichten sich, korrekte und vollständige Angaben zu machen und diese aktuell zu halten."
+        },
+        "conduct": {
+          "title": "4. Verbotenes Verhalten",
+          "content": "Sie dürfen Rcrut.me nicht nutzen, um falsche Angaben zu machen, andere zu belästigen, geistiges Eigentum zu verletzen oder illegale Aktivitäten durchzuführen. Wir behalten uns vor, Konten bei Verstößen zu sperren oder zu löschen."
+        },
+        "payments": {
+          "title": "5. Zahlungen & Rückerstattungen",
+          "content": "Alle Gebühren sind (außer ausdrücklich anders angegeben) nicht erstattungsfähig. Preise können mit 30-tägiger Ankündigung geändert werden. Wir nutzen Stripe für sichere Zahlungen."
+        },
+        "termination": {
+          "title": "6. Kündigung",
+          "content": "Wir können Ihren Zugang jederzeit bei Verstoß gegen diese Bedingungen sperren oder beenden. Bei Kündigung erlischt Ihr Nutzungsrecht sofort."
+        },
+        "liability": {
+          "title": "7. Haftungsbeschränkung",
+          "content": "Rcrut.me wird 'wie besehen' bereitgestellt. Wir übernehmen keine Verantwortung für Einstellungsentscheidungen oder Ergebnisse. Unsere Haftung ist auf den Betrag beschränkt, den Sie uns in den letzten 12 Monaten gezahlt haben."
+        }
+      }
+    },
+    "cookies": {
+      "badge": "Cookie-Richtlinie",
+      "title": "Cookie-Richtlinie",
+      "description": "Wie wir Cookies und ähnliche Technologien verwenden",
+      "lastUpdated": "Zuletzt aktualisiert: 15. April 2025",
+      "sections": {
+        "whatAreCookies": {
+          "title": "1. Was sind Cookies?",
+          "content": "Cookies sind kleine Textdateien, die auf Ihrem Gerät gespeichert werden und Websites helfen, Ihre Einstellungen zu merken und die Funktionalität zu verbessern."
+        },
+        "types": {
+          "title": "2. Welche Cookies wir verwenden",
+          "content": "Wir verwenden folgende Kategorien von Cookies:",
+          "list": [
+            {
+              "name": "Notwendige Cookies",
+              "description": "Erforderlich für Kernfunktionen wie Login, Sicherheit und Formularabsendung. Können nicht deaktiviert werden."
+            },
+            {
+              "name": "Analyse-Cookies",
+              "description": "Helfen uns zu verstehen, wie Besucher unsere Seite nutzen (via Plausible Analytics – datenschutzfreundlich, keine personenbezogenen Daten)."
+            },
+            {
+              "name": "Präferenz-Cookies",
+              "description": "Merken sich Ihre Sprache, Theme- und Benachrichtigungseinstellungen."
+            },
+            {
+              "name": "Marketing-Cookies",
+              "description": "Derzeit nicht im Einsatz. Wir betreiben keine Fremdwerbung oder Tracking."
+            }
+          ]
+        },
+        "management": {
+          "title": "3. Cookies verwalten",
+          "content": "Sie können Cookies über Ihre Browsereinstellungen kontrollieren. Die meisten Browser erlauben es, Cookies zu blockieren oder zu löschen. Beachten Sie, dass das Deaktivieren notwendiger Cookies die Funktionalität beeinträchtigen kann."
+        }
+      }
+    }
   }
 }
