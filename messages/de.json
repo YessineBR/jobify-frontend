@@ -203,7 +203,7 @@
             "Erweiterte Analysen",
             "Persönlicher Ansprechpartner"
           ],
-          "buttonText": "Loslegen",
+          "buttonText": "Basic wählen",
           "popular": false
         },
         {
@@ -430,6 +430,60 @@
       "subtitle": "Schließe dich den über 8.500 Fachkräften an, die bereits mit Rcrut.me durchgestartet sind.",
       "signup": "Kostenloses Konto erstellen",
       "visa": "Express-Visum entdecken"
+    }
+  },
+  "careers": {
+    "title": "Karriere",
+    "description": "Werde Teil unserer Mission, Recruiting mit KI zu revolutionieren",
+    "hero": {
+      "badge": "Karriere bei Rcrut.me",
+      "title": "Werde Teil der Recruiting-Revolution",
+      "subtitle": "Wir sind ein Remote-First-Team und bauen die Zukunft des KI-gestützten Recruitings in Europa. Wenn du leidenschaftlich für Talente, Technologie und Impact bist – wir wollen dich."
+    },
+    "openPositions": "Offene Stellen",
+    "applyNow": "Jetzt bewerben",
+    "noRole": "Deine Rolle nicht dabei? Wir suchen immer außergewöhnliche Talente.",
+    "spontaneous": "Initiativbewerbung senden",
+    "whyJoin": "Warum zu Rcrut.me?",
+    "perks": {
+      "remote": "Remote First",
+      "equity": "Beteiligung am Unternehmen",
+      "pto": "Unbegrenzter Urlaub",
+      "health": "Top-Krankenversicherung",
+      "learning": "Weiterbildungsbudget €2.000/Jahr",
+      "offsites": "Team-Offsites 2×/Jahr"
+    }
+  },
+  "contact": {
+    "title": "Kontakt",
+    "description": "Kontaktiere unser Team",
+    "hero": {
+      "badge": "Kontakt",
+      "title": "Lass uns über deine nächste Chance sprechen",
+      "subtitle": "Ob Frage zu unserer Plattform, Hilfe bei deinem Visumantrag oder Partnerschaft – wir sind für dich da."
+    },
+    "email": {
+      "title": "E-Mail",
+      "subtitle": "Für allgemeine Anfragen"
+    },
+    "phone": {
+      "title": "Telefon",
+      "subtitle": "Für dringende Angelegenheiten"
+    },
+    "location": {
+      "title": "Standort",
+      "subtitle": "Besuche unser Berliner Büro"
+    },
+    "form": {
+      "title": "Nachricht senden",
+      "subtitle": "Wir melden uns innerhalb von 24 Stunden",
+      "name": "Vollständiger Name",
+      "email": "E-Mail-Adresse",
+      "subject": "Betreff",
+      "subjectPlaceholder": "Worauf bezieht sich deine Anfrage?",
+      "message": "Nachricht",
+      "messagePlaceholder": "Erzähle uns mehr darüber, was du brauchst...",
+      "submit": "Nachricht senden"
     }
   },
   "legal": {

@@ -203,7 +203,7 @@
             "Advanced analytics",
             "Dedicated account manager"
           ],
-          "buttonText": "Get Started",
+          "buttonText": "Get Basic",
           "popular": false
         },
         {
@@ -430,6 +430,60 @@
       "subtitle": "Join over 8,500 professionals who have already started their new chapter with Rcrut.me.",
       "signup": "Create Free Account",
       "visa": "Explore Express Visa"
+    }
+  },
+  "careers": {
+    "title": "Careers",
+    "description": "Join our mission to transform recruiting with AI",
+    "hero": {
+      "badge": "Careers at Rcrut.me",
+      "title": "Join Us in Reinventing Recruiting",
+      "subtitle": "We’re a remote-first team building the future of AI-powered hiring in Europe. If you’re passionate about talent, technology, and impact — we want you."
+    },
+    "openPositions": "Open Positions",
+    "applyNow": "Apply Now",
+    "noRole": "Don’t see your role? We’re always looking for exceptional talent.",
+    "spontaneous": "Send Us a Spontaneous Application",
+    "whyJoin": "Why Join Rcrut.me?",
+    "perks": {
+      "remote": "Remote First",
+      "equity": "Equity Offered",
+      "pto": "Unlimited PTO",
+      "health": "Top-tier Health Insurance",
+      "learning": "Learning Budget €2,000/year",
+      "offsites": "Team Offsites 2×/year"
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "description": "Get in touch with our team",
+    "hero": {
+      "badge": "Contact Us",
+      "title": "Let's Talk About Your Next Opportunity",
+      "subtitle": "Whether you have a question about our platform, need help with your visa application, or want to partner with us — we're here to help."
+    },
+    "email": {
+      "title": "Email",
+      "subtitle": "Best for general inquiries"
+    },
+    "phone": {
+      "title": "Phone",
+      "subtitle": "Call us for urgent matters"
+    },
+    "location": {
+      "title": "Location",
+      "subtitle": "Visit our Berlin office"
+    },
+    "form": {
+      "title": "Send us a Message",
+      "subtitle": "We'll get back to you within 24 hours",
+      "name": "Full Name",
+      "email": "Email Address",
+      "subject": "Subject",
+      "subjectPlaceholder": "What's this about?",
+      "message": "Message",
+      "messagePlaceholder": "Tell us more about what you need...",
+      "submit": "Send Message"
     }
   },
   "legal": {
