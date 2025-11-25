@@ -1,12 +1,13 @@
 "use client"
 
-import {useState} from "react"
+import {useState, useMemo} from "react"
 import {useTranslations} from "next-intl"
 import {Button} from "@/components/ui/button"
 import {Input} from "@/components/ui/input"
 import {Badge} from "@/components/ui/badge"
 import {Card} from "@/components/ui/card"
-import {Sparkles, Search, MapPin, ArrowRight} from "lucide-react"
+import {Sparkles, Search, MapPin} from "lucide-react"
+import WorldMap from "@/components/ui/world-map";
 
 export default function Hero() {
     const t = useTranslations("homePage.hero")
@@ -26,9 +27,82 @@ export default function Hero() {
 
     const examples = t.raw("examples") as string[]
 
+    // Use useMemo to ensure consistent dots between server and client
+    const mapDots = useMemo(() => {
+        const hubs = [
+            {lat: 50.9375, lng: 6.9603, label: "Köln"},
+            {lat: 48.1374, lng: 11.5755, label: "Munich"}
+        ]
+
+        // Use a fixed seed for consistent randomization
+        const getHub = (index: number) => hubs[index % hubs.length]
+
+        return [
+            // --- FIXED ROUTES ---
+            // Köln → Munich
+            {
+                start: {lat: 50.9375, lng: 6.9603, label: "Köln"},
+                end: {lat: 48.1374, lng: 11.5755, label: "Munich"}
+            },
+            // Doha → Tunis
+            {
+                start: {lat: 25.2854, lng: 51.5310, label: "Doha"},
+                end: {lat: 36.8000, lng: 10.1800, label: "Tunis"}
+            },
+            // Tunis → Cairo
+            {
+                start: {lat: 36.8000, lng: 10.1800, label: "Tunis"},
+                end: {lat: 30.0444, lng: 31.2357, label: "Cairo"}
+            },
+            // Paris → Warsaw
+            {
+                start: {lat: 48.8566, lng: 2.3522, label: "Paris"},
+                end: {lat: 52.2297, lng: 21.0122, label: "Warsaw"}
+            },
+            // Warsaw → Jeddah
+            {
+                start: {lat: 52.2297, lng: 21.0122, label: "Warsaw"},
+                end: {lat: 21.5433, lng: 39.1728, label: "Jeddah"}
+            },
+            // --- RANDOM WORLD CITY CONNECTIONS TO GERMANY ---
+            // Use fixed indices to ensure consistency
+            {
+                start: {lat: 40.7128, lng: -74.0060, label: "New York"},
+                end: getHub(0) // Always Köln
+            },
+            {
+                start: {lat: 35.6895, lng: 139.6917, label: "Tokyo"},
+                end: getHub(1) // Always Munich
+            },
+            {
+                start: {lat: -33.8688, lng: 151.2093, label: "Sydney"},
+                end: getHub(0) // Always Köln
+            },
+            {
+                start: {lat: 55.7558, lng: 37.6173, label: "Moscow"},
+                end: getHub(1) // Always Munich
+            },
+            {
+                start: {lat: 19.4326, lng: -99.1332, label: "Mexico City"},
+                end: getHub(0) // Always Köln
+            }
+        ]
+    }, []) // Empty dependency array ensures consistent generation
+
     return (
-        <section className="pt-32 pb-20 bg-gradient-to-b from-muted/50 to-background">
-            <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+        <section className="relative w-full min-h-screen flex items-center justify-center overflow-hidden">
+            {/* WorldMap Background */}
+            <div className="absolute inset-0 -z-10">
+                <WorldMap
+                    dots={mapDots}
+                    lineColor="rgba(16, 185, 129, 0.4)"
+                />
+                {/* Overlay to make content more readable */}
+                <div
+                    className="absolute inset-0 bg-gradient-to-b from-background/80 via-background/50 to-background/80"></div>
+            </div>
+
+            <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
                 <div className="max-w-4xl mx-auto text-center">
                     {/* Badge */}
                     <Badge variant="secondary" className="mb-6 inline-flex items-center gap-2">
@@ -47,7 +121,7 @@ export default function Hero() {
                     </p>
 
                     {/* Search Card */}
-                    <Card className="p-6 shadow-xl border">
+                    <Card className="p-6 shadow-xl border bg-background/95 backdrop-blur-sm">
                         <div className="flex flex-col sm:flex-row gap-4 mb-4">
                             {/* Job Prompt Input */}
                             <div className="flex-1 relative">
@@ -113,19 +187,6 @@ export default function Hero() {
                             ))}
                         </div>
                     </Card>
-
-                    {/*/!* CTA Buttons *!/*/}
-                    {/*<div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center">*/}
-                    {/*    <Button size="lg" asChild className="px-8">*/}
-                    {/*        <a href="/post-job">*/}
-                    {/*            {t("startHiring")}*/}
-                    {/*            <ArrowRight className="ml-2 h-5 w-5"/>*/}
-                    {/*        </a>*/}
-                    {/*    </Button>*/}
-                    {/*    <Button size="lg" variant="outline" asChild>*/}
-                    {/*        <a href="/jobs">{t("browseJobs")}</a>*/}
-                    {/*    </Button>*/}
-                    {/*</div>*/}
 
                     {/* Stats */}
                     <div className="mt-16 grid grid-cols-3 gap-8 max-w-2xl mx-auto">
