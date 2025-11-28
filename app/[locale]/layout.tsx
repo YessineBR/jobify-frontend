@@ -5,6 +5,8 @@ import {NextIntlClientProvider} from "next-intl";
 import {ThemeProvider} from "next-themes";
 import React from "react";
 import {SmoothScroll} from "@/components/SmoothScroll";
+import {AuthProvider} from "@/contexts/AuthContext";
+import {Toaster} from "sonner";
 
 const geistSans = Geist({
     variable: "--font-geist-sans",
@@ -37,8 +39,11 @@ export default function RootLayout({
             enableSystem
         >
             <NextIntlClientProvider>
-                {children}
-                <SmoothScroll />
+                <AuthProvider>
+                    {children}
+                    <Toaster />
+                </AuthProvider>
+                <SmoothScroll/>
             </NextIntlClientProvider>
         </ThemeProvider>
         </body>

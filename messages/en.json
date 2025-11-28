@@ -798,6 +798,199 @@
           "logout": "Logout"
         }
       }
+    },
+    "Employer": {
+      "nav": {
+        "overview": "Overview",
+        "applications": "Jobs",
+        "calendar": "Interviews",
+        "visa": "Visa Status",
+        "profile": "Profile"
+      },
+      "user": {
+        "name": "John Doe",
+        "role": "Job Seeker",
+        "initials": "JD"
+      },
+      "logout": "Logout",
+      "Overview": {
+        "Notification": {
+          "title": "Upcoming Interview!",
+          "description": "You have an interview with {company} for the position {position}",
+          "viewDetails": "View Details"
+        },
+        "Welcome": {
+          "welcomeBack": "Welcome back,",
+          "heyUser": "Siemens AG",
+          "statusMessage": "You have 3 active job postings with 147 applicants and 3 interviews scheduled this week.",
+          "currentPlan": "Current Plan",
+          "planType": "Platinum",
+          "findJobs": "Post a job",
+          "viewCalendar": "View Candidates"
+        },
+        "Stats": {
+          "applications": {
+            "badge": "+2 this week",
+            "label": "Active Applications",
+            "linkText": "View all"
+          },
+          "interview": {
+            "badge": "Mon 9:00",
+            "label": "Upcoming Interview",
+            "linkText": "View details"
+          },
+          "visa": {
+            "badge": "Under Review",
+            "label": "Planned Interviews",
+            "linkText": "Open Calendar"
+          },
+          "profile": {
+            "badge": "Excellent",
+            "label": "Visa Applications",
+            "linkText": "View Status"
+          }
+        },
+        "RecentApplications": {
+          "title": "Recent Applications",
+          "description": "Track your application status",
+          "viewAll": "View all"
+        },
+        "RecommendedJobs": {
+          "title": "Recommended for You",
+          "description": "AI-matched jobs for you",
+          "more": "More",
+          "quickApply": "Quick Apply"
+        }
+      },
+      "Applications": {
+        "title": "My Applications",
+        "description": "Manage and track all your applications",
+        "export": "Export",
+        "newApplication": "New Application",
+        "appliedOn": "Applied on",
+        "viewDetails": "View Details"
+      },
+      "Calendar": {
+        "title": "Interview Calendar",
+        "description": "Manage your upcoming and past interviews",
+        "join": "Join Call",
+        "details": "View Details"
+      },
+      "Visa": {
+        "title": "Visa Application Status",
+        "description": "Track your German work visa application in real time",
+        "Status": {
+          "active": "Application Active",
+          "title": "Express Visa Application",
+          "description": "Your application is being processed by German authorities",
+          "expectedCompletion": "Expected Completion",
+          "timeline": "In about 3 weeks"
+        },
+        "Documents": {
+          "title": "Required Documents",
+          "description": "Upload and manage your documents",
+          "upload": "Upload Document"
+        },
+        "Payment": {
+          "locked": "Locked",
+          "description": "Please complete payment to access document upload and all visa services.",
+          "payNow": "Pay Now – €999",
+          "secure": "Secure payment • Instant access"
+        },
+        "Pricing": {
+          "totalPackage": "Complete Package",
+          "includes": "Includes €411 government visa fees",
+          "completed": "Payment Status: Completed",
+          "payNow": "Pay Now"
+        },
+        "PaymentModal": {
+          "title": "Express Visa Service - Payment",
+          "subtitle": "Secure payment for your visa application",
+          "paymentMethod": "Choose payment method",
+          "methods": {
+            "card": "Credit Card",
+            "paypal": "PayPal",
+            "sofort": "Sofort"
+          },
+          "card": {
+            "number": "Card Number *",
+            "numberPlaceholder": "1234 5678 9012 3456",
+            "holder": "Cardholder *",
+            "holderPlaceholder": "John Doe",
+            "expiry": "Expiry Date *",
+            "expiryPlaceholder": "MM/YY",
+            "cvv": "CVV *",
+            "cvvPlaceholder": "123"
+          },
+          "paypal": {
+            "description": "You will be redirected to PayPal to complete the payment.",
+            "button": "Pay with PayPal"
+          },
+          "sofort": {
+            "description": "You will be redirected to Sofortüberweisung.",
+            "button": "Pay with Sofort"
+          },
+          "security": {
+            "title": "Secure payment:",
+            "description": "Your payment information is encrypted and not stored on our servers."
+          },
+          "processing": "Processing payment...",
+          "payButton": "Pay €{amount} now",
+          "summary": {
+            "title": "Express Visa Service",
+            "description": "Complete visa package for Germany",
+            "serviceFee": "Service Fee",
+            "officialFees": "Official Fees",
+            "total": "Total"
+          },
+          "benefits": {
+            "title": "What you get:",
+            "fastProcessing": "Fast processing in 2-3 weeks",
+            "personalAdvisor": "Personal visa advisor",
+            "documentReview": "Document review and preparation",
+            "appointmentBooking": "Embassy appointment booking",
+            "statusTracking": "Application status tracking",
+            "moneyBackGuarantee": "Full money-back guarantee if rejected"
+          },
+          "info": {
+            "description": "After successful payment, you will get immediate access to document upload and your personal visa dashboard."
+          }
+        }
+      },
+      "Profile": {
+        "title": "Profile Settings",
+        "description": "Manage your account information and preferences",
+        "Info": {
+          "personalInfo": "Personal Information",
+          "fullName": "Full Name",
+          "email": "Email Address",
+          "phone": "Phone Number",
+          "location": "Current Location",
+          "goldMember": "Gold Member",
+          "verified": "Verified",
+          "save": "Save Changes",
+          "cancel": "Cancel"
+        },
+        "Subscription": {
+          "active": "Active",
+          "plan": "Gold Plan",
+          "details": "€99/month • Renews on Dec 21, 2025",
+          "upgrade": "Upgrade to Platinum"
+        },
+        "Stats": {
+          "title": "Account Statistics",
+          "memberSince": "Member since",
+          "totalApplications": "Total applications",
+          "successRate": "Success rate",
+          "profileViews": "Profile views"
+        },
+        "Actions": {
+          "title": "Quick Actions",
+          "accountSettings": "Account Settings",
+          "notifications": "Notifications",
+          "logout": "Logout"
+        }
+      }
     }
   }
 }

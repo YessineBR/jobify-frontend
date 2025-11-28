@@ -1,12 +1,12 @@
 "use client"
 
-import {useState, useMemo} from "react"
+import {useMemo, useState} from "react"
 import {useTranslations} from "next-intl"
 import {Button} from "@/components/ui/button"
 import {Input} from "@/components/ui/input"
 import {Badge} from "@/components/ui/badge"
 import {Card} from "@/components/ui/card"
-import {Sparkles, Search, MapPin} from "lucide-react"
+import {MapPin, Search, Sparkles} from "lucide-react"
 import WorldMap from "@/components/ui/world-map";
 
 export default function Hero() {
@@ -29,65 +29,69 @@ export default function Hero() {
 
     // Use useMemo to ensure consistent dots between server and client
     const mapDots = useMemo(() => {
-        const hubs = [
-            {lat: 50.9375, lng: 6.9603, label: "Köln"},
-            {lat: 48.1374, lng: 11.5755, label: "Munich"}
+        // Accurate coordinates
+        const hubs = {
+            koln: {lat: 37, lng: 9.9603, label: "Köln"},
+            munich: {lat: 43.1374, lng: 11.5755, label: "Munich"},
+        }
+
+        const germanyHubs = [hubs.koln, hubs.munich]
+
+        // Deterministic pseudo-random generator (consistent on every render)
+        const seededRandom = (seed: number) => {
+            const x = Math.sin(seed) * 10000
+            return x - Math.floor(x)
+        }
+
+        // Helper to pick a Germany hub deterministically
+        const pickHub = (index: number) => germanyHubs[index % germanyHubs.length]
+
+        // Groups of accurate world coordinates
+        const worldCities = [
+            // North America
+            {lat: 40.7128, lng: -74.0060, label: "New York"},
+            {lat: 34.0522, lng: -118.2437, label: "Los Angeles"},
+            {lat: 45.5017, lng: -73.5673, label: "Montreal"},
+
+            // South America
+            {lat: -23.5505, lng: -46.6333, label: "São Paulo"},
+            {lat: -34.6037, lng: -58.3816, label: "Buenos Aires"},
+
+            // Europe
+            {lat: 48.8566, lng: 2.3522, label: "Paris"},
+            {lat: 41.9028, lng: 12.4964, label: "Rome"},
+            {lat: 52.5200, lng: 13.4050, label: "Berlin"},
+
+            // Africa
+            {lat: 30.0444, lng: 31.2357, label: "Cairo"},
+            {lat: -1.2921, lng: 36.8219, label: "Nairobi"},
+            {lat: 6.5244, lng: 3.3792, label: "Lagos"},
+
+            // Middle East
+            {lat: 25.2854, lng: 51.5310, label: "Doha"},
+            {lat: 24.7136, lng: 46.6753, label: "Riyadh"},
+            {lat: 21.3891, lng: 39.8579, label: "Jeddah"},
+
+            // South Asia
+            {lat: 28.6139, lng: 77.2090, label: "New Delhi"},
+            {lat: 23.8103, lng: 90.4125, label: "Dhaka"},
+
+            // East Asia
+            {lat: 35.6895, lng: 139.6917, label: "Tokyo"},
+            {lat: 31.2304, lng: 121.4737, label: "Shanghai"},
+            {lat: 37.5665, lng: 126.9780, label: "Seoul"},
+
+            // Oceania
+            {lat: -33.8688, lng: 151.2093, label: "Sydney"},
+            {lat: -37.8136, lng: 144.9631, label: "Melbourne"},
         ]
 
-        // Use a fixed seed for consistent randomization
-        const getHub = (index: number) => hubs[index % hubs.length]
-
-        return [
-            // --- FIXED ROUTES ---
-            // Köln → Munich
-            {
-                start: {lat: 50.9375, lng: 6.9603, label: "Köln"},
-                end: {lat: 48.1374, lng: 11.5755, label: "Munich"}
-            },
-            // Doha → Tunis
-            {
-                start: {lat: 25.2854, lng: 51.5310, label: "Doha"},
-                end: {lat: 36.8000, lng: 10.1800, label: "Tunis"}
-            },
-            // Tunis → Cairo
-            {
-                start: {lat: 36.8000, lng: 10.1800, label: "Tunis"},
-                end: {lat: 30.0444, lng: 31.2357, label: "Cairo"}
-            },
-            // Paris → Warsaw
-            {
-                start: {lat: 48.8566, lng: 2.3522, label: "Paris"},
-                end: {lat: 52.2297, lng: 21.0122, label: "Warsaw"}
-            },
-            // Warsaw → Jeddah
-            {
-                start: {lat: 52.2297, lng: 21.0122, label: "Warsaw"},
-                end: {lat: 21.5433, lng: 39.1728, label: "Jeddah"}
-            },
-            // --- RANDOM WORLD CITY CONNECTIONS TO GERMANY ---
-            // Use fixed indices to ensure consistency
-            {
-                start: {lat: 40.7128, lng: -74.0060, label: "New York"},
-                end: getHub(0) // Always Köln
-            },
-            {
-                start: {lat: 35.6895, lng: 139.6917, label: "Tokyo"},
-                end: getHub(1) // Always Munich
-            },
-            {
-                start: {lat: -33.8688, lng: 151.2093, label: "Sydney"},
-                end: getHub(0) // Always Köln
-            },
-            {
-                start: {lat: 55.7558, lng: 37.6173, label: "Moscow"},
-                end: getHub(1) // Always Munich
-            },
-            {
-                start: {lat: 19.4326, lng: -99.1332, label: "Mexico City"},
-                end: getHub(0) // Always Köln
-            }
-        ]
-    }, []) // Empty dependency array ensures consistent generation
+        // Create consistent random connections
+        return worldCities.map((city, index) => ({
+            start: city,
+            end: pickHub(Math.floor(seededRandom(index + 42) * 2)), // deterministic 0 or 1
+        }))
+    }, [])
 
     return (
         <section className="relative w-full min-h-screen flex items-center justify-center overflow-hidden">
@@ -95,11 +99,11 @@ export default function Hero() {
             <div className="absolute inset-0 -z-10">
                 <WorldMap
                     dots={mapDots}
-                    lineColor="rgba(16, 185, 129, 0.4)"
+                    lineColor="oklch(64% 0.20 258 / 0.35)"
                 />
                 {/* Overlay to make content more readable */}
                 <div
-                    className="absolute inset-0 bg-gradient-to-b from-background/80 via-background/50 to-background/80"></div>
+                    className="absolute inset-0 bg-gradient-to-b from-background/70 via-background/50 to-background/70"></div>
             </div>
 
             <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">

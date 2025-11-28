@@ -798,6 +798,199 @@
           "logout": "Abmelden"
         }
       }
+    },
+    "Employer": {
+      "nav": {
+        "overview": "Übersicht",
+        "applications": "Stellenanzeigen",
+        "calendar": "Interviews",
+        "visa": "Visastatus",
+        "profile": "Profil"
+      },
+      "user": {
+        "name": "John Doe",
+        "role": "Jobsuchende/r",
+        "initials": "JD"
+      },
+      "logout": "Abmelden",
+      "Overview": {
+        "Notification": {
+          "title": "Anstehendes Interview!",
+          "description": "Sie haben ein Interview mit {company} für die Position {position}",
+          "viewDetails": "Details anzeigen"
+        },
+        "Welcome": {
+          "welcomeBack": "Willkommen zurück,",
+          "heyUser": "Siemens AG",
+          "statusMessage": "Sie haben 3 aktive Stellenanzeigen mit 147 Bewerbern und 8 anstehende Interviews diese Woche.",
+          "currentPlan": "Aktueller Plan",
+          "planType": "Platinum",
+          "findJobs": "Neue Stellenanzeige",
+          "viewCalendar": "kandidaten ansehen"
+        },
+        "Stats": {
+          "applications": {
+            "badge": "+2 diese Woche",
+            "label": "Aktive Bewerbungen",
+            "linkText": "Alle anzeigen"
+          },
+          "interview": {
+            "badge": "Mo 9:00",
+            "label": "Anstehendes Interview",
+            "linkText": "Details ansehen"
+          },
+          "visa": {
+            "badge": "In Prüfung",
+            "label": "Visa Fortschritt",
+            "linkText": "Status prüfen"
+          },
+          "profile": {
+            "badge": "Ausgezeichnet",
+            "label": "Profil Match Score",
+            "linkText": "Score verbessern"
+          }
+        },
+        "RecentApplications": {
+          "title": "Aktuelle Bewerbungen",
+          "description": "Verfolgen Sie Ihre Bewerbungsstatus",
+          "viewAll": "Alle anzeigen"
+        },
+        "RecommendedJobs": {
+          "title": "Empfohlen für Sie",
+          "description": "KI-passende Jobs für Sie",
+          "more": "Mehr",
+          "quickApply": "Schnellbewerbung"
+        }
+      },
+      "Applications": {
+        "title": "Meine Bewerbungen",
+        "description": "Verwalten und verfolgen Sie alle Ihre Bewerbungen",
+        "export": "Exportieren",
+        "newApplication": "Neue Bewerbung",
+        "appliedOn": "Beworben am",
+        "viewDetails": "Details Anzeigen"
+      },
+      "Calendar": {
+        "title": "Interview Kalender",
+        "description": "Verwalten Sie Ihre anstehenden und vergangenen Interviews",
+        "join": "Beitreten",
+        "details": "Details"
+      },
+      "Visa": {
+        "title": "Visa Bewerbungsstatus",
+        "description": "Verfolgen Sie Ihre deutsche Arbeitsvisum-Bewerbung in Echtzeit",
+        "Status": {
+          "active": "Bewerbung aktiv",
+          "title": "Express Visa Bewerbung",
+          "description": "Ihre Bewerbung wird von deutschen Behörden geprüft",
+          "expectedCompletion": "Voraussichtlicher Abschluss",
+          "timeline": "In etwa 3 Wochen"
+        },
+        "Documents": {
+          "title": "Erforderliche Dokumente",
+          "description": "Laden Sie Ihre Dokumente hoch und verwalten Sie sie",
+          "upload": "Dokument hochladen"
+        },
+        "Payment": {
+          "locked": "Gesperrt",
+          "description": "Bitte schließen Sie die Zahlung ab, um auf den Dokumenten-Upload und alle Visa-Services zuzugreifen.",
+          "payNow": "Jetzt bezahlen – €999",
+          "secure": "Sichere Zahlung • Sofortiger Zugriff"
+        },
+        "Pricing": {
+          "totalPackage": "Gesamtpaket",
+          "includes": "Inkl. €411 staatliche Visagebühren",
+          "completed": "Zahlungsstatus: Abgeschlossen",
+          "payNow": "Jetzt bezahlen"
+        },
+        "PaymentModal": {
+          "title": "Express Visa Service - Zahlung",
+          "subtitle": "Sichere Zahlung für Ihren Visa-Antrag",
+          "paymentMethod": "Zahlungsmethode wählen",
+          "methods": {
+            "card": "Kreditkarte",
+            "paypal": "PayPal",
+            "sofort": "Sofort"
+          },
+          "card": {
+            "number": "Kartennummer *",
+            "numberPlaceholder": "1234 5678 9012 3456",
+            "holder": "Karteninhaber *",
+            "holderPlaceholder": "Max Mustermann",
+            "expiry": "Ablaufdatum *",
+            "expiryPlaceholder": "MM/JJ",
+            "cvv": "CVV *",
+            "cvvPlaceholder": "123"
+          },
+          "paypal": {
+            "description": "Sie werden zu PayPal weitergeleitet, um die Zahlung abzuschließen.",
+            "button": "Mit PayPal bezahlen"
+          },
+          "sofort": {
+            "description": "Sie werden zu Sofortüberweisung weitergeleitet.",
+            "button": "Mit Sofort bezahlen"
+          },
+          "security": {
+            "title": "Sichere Zahlung:",
+            "description": "Ihre Zahlungsinformationen werden verschlüsselt übertragen und nicht auf unseren Servern gespeichert."
+          },
+          "processing": "Verarbeite Zahlung...",
+          "payButton": "€{amount} jetzt bezahlen",
+          "summary": {
+            "title": "Express Visa Service",
+            "description": "Komplettes Visa-Paket für Deutschland",
+            "serviceFee": "Service-Gebühr",
+            "officialFees": "Behördengebühren",
+            "total": "Gesamt"
+          },
+          "benefits": {
+            "title": "Was Sie erhalten:",
+            "fastProcessing": "Schnelle Bearbeitung in 2-3 Wochen",
+            "personalAdvisor": "Persönlicher Visa-Berater",
+            "documentReview": "Dokument-Prüfung und Vorbereitung",
+            "appointmentBooking": "Terminvereinbarung bei der Botschaft",
+            "statusTracking": "Nachverfolgung des Antragsstatus",
+            "moneyBackGuarantee": "Volle Geld-zurück-Garantie bei Ablehnung"
+          },
+          "info": {
+            "description": "Nach erfolgreicher Zahlung erhalten Sie sofort Zugang zum Dokumenten-Upload und Ihrem persönlichen Visa-Dashboard."
+          }
+        }
+      },
+      "Profile": {
+        "title": "Profileinstellungen",
+        "description": "Verwalten Sie Ihre Kontoinformationen und Einstellungen",
+        "Info": {
+          "personalInfo": "Persönliche Informationen",
+          "fullName": "Vollständiger Name",
+          "email": "E-Mail-Adresse",
+          "phone": "Telefonnummer",
+          "location": "Aktueller Standort",
+          "goldMember": "Gold Mitglied",
+          "verified": "Verifiziert",
+          "save": "Änderungen speichern",
+          "cancel": "Abbrechen"
+        },
+        "Subscription": {
+          "active": "Aktiv",
+          "plan": "Gold Plan",
+          "details": "€99/Monat • Verlängert am 21. Dez 2025",
+          "upgrade": "Auf Platinum upgraden"
+        },
+        "Stats": {
+          "title": "Konto-Statistiken",
+          "memberSince": "Mitglied seit",
+          "totalApplications": "Gesamt Bewerbungen",
+          "successRate": "Erfolgsquote",
+          "profileViews": "Profil-Ansichten"
+        },
+        "Actions": {
+          "title": "Schnellaktionen",
+          "accountSettings": "Kontoeinstellungen",
+          "notifications": "Benachrichtigungen",
+          "logout": "Abmelden"
+        }
+      }
     }
   }
 }
